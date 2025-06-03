@@ -6,7 +6,7 @@ import Controls from './components/Controls';
 import DefinitionQuiz from './components/DefinitionQuiz';
 import BlankTileModal from './components/BlankTileModal';
 import './App.css';
-import { createTileBag, refillRack, Tile, TileBag, arePlacementsInLine, isMoveConnected, getAllWordsFormed, calculateScore, BOARD_MULTIPLIERS, findSimpleComputerMove, findAdvancedComputerMove } from './utils/gameLogic';
+import { createTileBag, refillRack, Tile, TileBag, arePlacementsInLine, isMoveConnected, getAllWordsFormed, calculateScore, BOARD_MULTIPLIERS, findSimpleComputerMove, findAdvancedComputerMove, findBestComputerMove } from './utils/gameLogic';
 
 // Placeholder imports for components (to be created)
 // import Board from './components/Board';
@@ -49,6 +49,7 @@ const App: React.FC = () => {
   const [quizShowExample, setQuizShowExample] = useState(false);
   const [quizExample, setQuizExample] = useState<string | undefined>(undefined);
   const [quizClosePending, setQuizClosePending] = useState(false);
+  const [difficulty, setDifficulty] = useState<'beginner' | 'advanced'>('advanced');
 
   // Load word lists from public/data
   useEffect(() => {
@@ -328,7 +329,9 @@ const App: React.FC = () => {
         console.log('AI DEBUG: dictSet has DO:', dictSet.has('do'), 'TO:', dictSet.has('to'));
         debugger;
         // Find a move using advanced AI
-        const move = findAdvancedComputerMove(computerRack, board, dictSet);
+        const move = difficulty === 'beginner'
+          ? findSimpleComputerMove(computerRack, board, dictSet)
+          : findBestComputerMove(computerRack, board, dictSet);
         console.log('AI DEBUG: move found', move);
         if (move) {
           // Commit move to board
@@ -359,13 +362,13 @@ const App: React.FC = () => {
           setComputerAction('Computer passed!');
         }
         // Hide the message after 2 seconds
-        setTimeout(() => setComputerAction(null), 2000);
+        // setTimeout(() => setComputerAction(null), 2000);
         // Switch back to player
         setTurn('player');
         setIsComputerThinking(false);
       }, 1000);
     }
-  }, [turn, isComputerThinking, board, computerRack, tileBag, wordLists]);
+  }, [turn, isComputerThinking, board, computerRack, tileBag, wordLists, difficulty]);
 
   const handleBlankSelect = (letter: string) => {
     if (!pendingBlankPlacement) return;
@@ -423,7 +426,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>Meaningful Word Tiling (Scrabble Variant)</h1>
+      <h1>Meaningful Word Tiling</h1>
       <Scoreboard scores={scores} turn={turn} />
       <div className="main-area">
         <Board
@@ -448,9 +451,17 @@ const App: React.FC = () => {
               <Rack tiles={computerRack} />
             </div>
           )}
+          <div style={{ marginBottom: 16 }}>
+            <label htmlFor="difficulty-select">Difficulty: </label>
+            <select id="difficulty-select" value={difficulty} onChange={e => setDifficulty(e.target.value as any)}>
+              <option value="beginner">Beginner</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+          {computerAction && <div style={{ marginTop: 16, fontWeight: 600, color: '#1976d2' }}>{computerAction}</div>}
         </div>
       </div>
-      {computerAction && <div style={{ marginTop: 16, fontWeight: 600, color: '#1976d2' }}>{computerAction}</div>}
+      
       {definitionQuiz && (
         <div className="definition-quiz-popover">
           <DefinitionQuiz

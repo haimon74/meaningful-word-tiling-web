@@ -1,4 +1,4 @@
-import { findAdvancedComputerMove, Tile } from './gameLogic';
+import { findAdvancedComputerMove, findBestComputerMove, Tile, calculateScore, getAllWordsFormed } from './gameLogic';
 
 describe('findAdvancedComputerMove', () => {
   function makeTile(letter: string, points = 1): Tile {
@@ -106,6 +106,45 @@ describe('findAdvancedComputerMove', () => {
     // The word formed should be 'DO'
     const allTiles = [...move!.map(m => getTileLetter(m.tile)), board[2][2]!.letter];
     expect(allTiles.join('').toLowerCase()).toContain('do');
+  });
+});
+
+describe('findBestComputerMove', () => {
+  function makeTile(letter: string, points = 1): Tile {
+    return { letter, points, id: letter + Math.random() };
+  }
+
+  it('can play a word using only rack tiles (best move)', () => {
+    const board = Array.from({ length: 5 }, () => Array(5).fill(null));
+    const rack = [makeTile('C'), makeTile('A'), makeTile('T')];
+    const dict = new Set(['cat']);
+    const move = findBestComputerMove(rack, board, dict);
+    expect(move).toBeTruthy();
+    const word = move!.map(m => m.tile.letter).join('').toLowerCase();
+    expect(word).toBe('cat');
+  });
+
+  it('picks the highest scoring move', () => {
+    const board = Array.from({ length: 5 }, () => Array(5).fill(null));
+    // Place E at (2,3)
+    board[2][3] = makeTile('E');
+    const rack = [makeTile('C'), makeTile('O'), makeTile('R'), makeTile('A')];
+    const dict = new Set(['core', 'race']);
+    // Should play C,O,R at (2,1),(2,2),(2,3) to make "CORE" (score 1+1+1+5=8), or R,A,C,E at (2,0)-(2,3) to make "RACE" (score 5+1+1+1=8)
+    // Let's make R worth 5 points to make RACE the best move
+    rack[2].points = 5; // R
+    const move = findBestComputerMove(rack, board, dict);
+    expect(move).toBeTruthy();
+    const score = calculateScore(getAllWordsFormed(move!, board));
+    expect(score).toBe(8);
+  });
+
+  it('returns null if no valid move', () => {
+    const board = Array.from({ length: 5 }, () => Array(5).fill(null));
+    const rack = [makeTile('X'), makeTile('Y'), makeTile('Z')];
+    const dict = new Set(['cat']);
+    const move = findBestComputerMove(rack, board, dict);
+    expect(move).toBeNull();
   });
 });
 

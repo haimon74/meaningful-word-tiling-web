@@ -309,7 +309,8 @@ export function findSimpleComputerMove(rack: Tile[], board: (Tile | null)[][], w
   const anchors = getAnchorPoints(board);
   const BOARD_SIZE = board.length;
   for (const anchor of anchors) {
-    for (const dir of [ [0, 1], [1, 0] ] as const) { // horizontal, vertical
+    const directions: [number, number][] = [ [0, 1], [1, 0] ]; // horizontal, vertical
+    for (const dir of directions) {
       for (let len = 1; len <= rack.length; len++) {
         for (const perm of permutationsArr(rack, len)) {
           // Try to place perm at anchor, going forward
@@ -382,7 +383,8 @@ export function findAdvancedComputerMove(rack: Tile[], board: (Tile | null)[][],
       console.log('TESTCASE: at anchor (2,1), about to try directions/lengths');
     }
     try {
-      for (const dir of [ [0, 1], [1, 0] ] as const) { // horizontal, vertical
+      const directions: [number, number][] = [ [0, 1], [1, 0] ]; // horizontal, vertical
+      for (const dir of directions) {
         for (let len = 1; len <= Math.min(BOARD_SIZE, rack.length + 1); len++) {
           for (let offset = 0; offset < len; offset++) {
             const startRow = anchor.row - dir[0] * offset;
@@ -542,4 +544,207 @@ export function findAdvancedComputerMove(rack: Tile[], board: (Tile | null)[][],
 // Helper: cartesian product for blank letter combos
 function cartesianProduct<T>(arr: T[][]): T[][] {
   return arr.reduce<T[][]>((a, b) => a.flatMap(d => b.map(e => [...d, e])), [[]]);
+}
+
+// Best-move AI: Generate all valid moves, score them, and return the highest scoring move
+export function findBestComputerMove(
+  rack: Tile[],
+  board: (Tile | null)[][],
+  wordSet: Set<string>
+): { tile: Tile; row: number; col: number }[] | null {
+  const BOARD_SIZE = board.length;
+  const anchors = getAnchorPoints(board);
+  const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let bestMove: { tile: Tile; row: number; col: number }[] | null = null;
+  let bestScore = -Infinity;
+  // Helper to deep copy a tile with assigned letter for blanks
+  function copyTileWithAssigned(tile: Tile, assignedLetter?: string) {
+    return tile.isBlank ? { ...tile, assignedLetter } : { ...tile };
+  }
+  for (const anchor of anchors) {
+    const directions: [number, number][] = [ [0, 1], [1, 0] ]; // horizontal, vertical
+    for (const dir of directions) {
+      // For each anchor, try all possible windows (start, end) that cover the anchor
+      for (let windowStart = 0; windowStart < BOARD_SIZE; windowStart++) {
+        for (let windowEnd = windowStart; windowEnd < BOARD_SIZE; windowEnd++) {
+          // The window must be in bounds
+          const startRow = dir[0] === 0 ? anchor.row : windowStart;
+          const startCol = dir[1] === 0 ? anchor.col : windowStart;
+          const endRow = dir[0] === 0 ? anchor.row : windowEnd;
+          const endCol = dir[1] === 0 ? anchor.col : windowEnd;
+          if (
+            startRow < 0 || startCol < 0 || endRow < 0 || endCol < 0 ||
+            startRow >= BOARD_SIZE || startCol >= BOARD_SIZE ||
+            endRow >= BOARD_SIZE || endCol >= BOARD_SIZE
+          ) {
+            continue;
+          }
+          // The window must cover the anchor
+          let coversAnchor = false;
+          for (let i = 0; ; i++) {
+            const r = startRow + dir[0] * i;
+            const c = startCol + dir[1] * i;
+            if ((dir[0] === 0 && c > endCol) || (dir[1] === 0 && r > endRow)) break;
+            if (r === anchor.row && c === anchor.col) {
+              coversAnchor = true;
+              break;
+            }
+          }
+          if (!coversAnchor) continue;
+          // Build the window: use board tiles where present, rack tiles for empty
+          let windowLen = (dir[0] === 0 ? endCol - startCol : endRow - startRow) + 1;
+          const line: (Tile | null)[] = [];
+          const emptyIndices: number[] = [];
+          for (let i = 0; i < windowLen; i++) {
+            const r = startRow + dir[0] * i;
+            const c = startCol + dir[1] * i;
+            const cell = board[r][c];
+            line.push(cell);
+            if (!cell) emptyIndices.push(i);
+          }
+          if (emptyIndices.length === 0 || emptyIndices.length > rack.length) continue;
+          // At least one rack tile must be used
+          if (emptyIndices.length === 0) continue;
+          const emptyCount = emptyIndices.length;
+          const rackPerms = permutationsArrWithBlanks(rack, emptyCount);
+          for (const perm of rackPerms) {
+            // For each blank in perm, try all possible letters (A-Z)
+            const blankIndices = perm.map((t, i) => t.isBlank ? i : -1).filter(i => i !== -1);
+            const blankCombos = blankIndices.length === 0 ? [[]] : cartesianProduct(Array(blankIndices.length).fill(ALPHABET.split('')));
+            for (const blankLetters of blankCombos) {
+              // Create a deep copy of perm with assignedLetter for blanks
+              const permCopy = perm.map((t, i) => {
+                if (t.isBlank) {
+                  const val = blankLetters[blankIndices.indexOf(i)];
+                  return copyTileWithAssigned(t, typeof val === 'string' ? val : undefined);
+                }
+                return copyTileWithAssigned(t);
+              });
+              // Build the word by filling empty cells with rack tiles (in order) and using board tiles where present
+              let permIdx = 0;
+              let wordTiles: { tile: Tile; row: number; col: number }[] = [];
+              let wordStr = '';
+              let usedRackTile = false;
+              for (let i = 0; i < windowLen; i++) {
+                const r = startRow + dir[0] * i;
+                const c = startCol + dir[1] * i;
+                if (board[r][c]) {
+                  wordTiles.push({ tile: board[r][c]!, row: r, col: c });
+                  wordStr += getTileLetter(board[r][c]!);
+                } else {
+                  const tile = permCopy[permIdx++];
+                  wordTiles.push({ tile, row: r, col: c });
+                  wordStr += getTileLetter(tile);
+                  usedRackTile = true;
+                }
+              }
+              if (!usedRackTile) continue;
+              // Extend the word in both directions to include board tiles
+              let fullStartRow = startRow;
+              let fullStartCol = startCol;
+              while (true) {
+                const r = fullStartRow - dir[0];
+                const c = fullStartCol - dir[1];
+                if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+                if (board[r][c]) {
+                  fullStartRow = r;
+                  fullStartCol = c;
+                } else break;
+              }
+              let fullEndRow = endRow;
+              let fullEndCol = endCol;
+              while (true) {
+                const r = fullEndRow + dir[0];
+                const c = fullEndCol + dir[1];
+                if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+                if (board[r][c]) {
+                  fullEndRow = r;
+                  fullEndCol = c;
+                } else break;
+              }
+              // Build the full word and full word tiles
+              let extendedWord = '';
+              let extendedWordTiles: { tile: Tile; row: number; col: number }[] = [];
+              let extPermIdx = 0;
+              for (let i = 0; ; i++) {
+                const r = fullStartRow + dir[0] * i;
+                const c = fullStartCol + dir[1] * i;
+                if ((dir[0] === 0 && c > fullEndCol) || (dir[1] === 0 && r > fullEndRow)) break;
+                let tile: Tile | null = null;
+                if (r >= startRow && r <= endRow && c >= startCol && c <= endCol && !board[r][c]) {
+                  tile = permCopy[extPermIdx++];
+                } else {
+                  tile = board[r][c];
+                }
+                if (!tile) break;
+                extendedWord += getTileLetter(tile);
+                extendedWordTiles.push({ tile, row: r, col: c });
+              }
+              if (extendedWord.length !== (Math.abs(fullEndRow - fullStartRow) + Math.abs(fullEndCol - fullStartCol) + 1) || extendedWord.length <= 1) {
+                continue;
+              }
+              if (!isMoveConnected(wordTiles, board)) {
+                continue;
+              }
+              if (wordSet.has(extendedWord.toLowerCase())) {
+                const words = getAllWordsFormed(wordTiles, board);
+                let allValid = true;
+                for (const wArr of words) {
+                  const wStr = wArr.map(w => getTileLetter(w.tile)).join('').toLowerCase();
+                  if (!wordSet.has(wStr)) {
+                    allValid = false;
+                    break;
+                  }
+                }
+                if (allValid) {
+                  const score = calculateScore(words);
+                  console.log('[CANDIDATE]', {
+                    extendedWord,
+                    score,
+                    wordTiles: wordTiles.map(wt => ({ row: wt.row, col: wt.col, letter: getTileLetter(wt.tile), points: wt.tile.points }))
+                  });
+                  if (score > bestScore) {
+                    bestScore = score;
+                    bestMove = wordTiles;
+                    console.log('[ACCEPTED] New best move', {
+                      extendedWord,
+                      score,
+                      wordTiles: wordTiles.map(wt => ({ row: wt.row, col: wt.col, letter: getTileLetter(wt.tile), points: wt.tile.points }))
+                    });
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return bestMove;
+}
+
+// Helper: get the max number of board tiles in a line from an anchor in a direction
+function getMaxBoardTilesInLine(board: (Tile | null)[][], anchor: { row: number; col: number }, dir: [number, number], BOARD_SIZE: number): number {
+  let count = 0;
+  let r = anchor.row;
+  let c = anchor.col;
+  // Go backward
+  while (true) {
+    r -= dir[0];
+    c -= dir[1];
+    if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+    if (board[r][c]) count++;
+    else break;
+  }
+  r = anchor.row;
+  c = anchor.col;
+  // Go forward
+  while (true) {
+    r += dir[0];
+    c += dir[1];
+    if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+    if (board[r][c]) count++;
+    else break;
+  }
+  return count;
 } 
