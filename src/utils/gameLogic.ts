@@ -143,7 +143,6 @@ export function isMoveConnected(placements: { row: number; col: number }[], boar
 export function getAllWordsFormed(placements: { row: number; col: number; tile: Tile }[], board: (Tile | null)[][]): { row: number; col: number; tile: Tile }[][] {
   if (placements.length === 0) return [];
   const words: { row: number; col: number; tile: Tile }[][] = [];
-  const placedSet = new Set(placements.map(p => `${p.row},${p.col}`));
   // Determine direction
   const { isRow, isCol } = arePlacementsInLine(placements);
   if (!isRow && !isCol) return [];
@@ -623,18 +622,15 @@ export function findBestComputerMove(
               // Build the word by filling empty cells with rack tiles (in order) and using board tiles where present
               let permIdx = 0;
               let wordTiles: { tile: Tile; row: number; col: number }[] = [];
-              let wordStr = '';
               let usedRackTile = false;
               for (let i = 0; i < windowLen; i++) {
                 const r = startRow + dir[0] * i;
                 const c = startCol + dir[1] * i;
                 if (board[r][c]) {
                   wordTiles.push({ tile: board[r][c]!, row: r, col: c });
-                  wordStr += getTileLetter(board[r][c]!);
                 } else {
                   const tile = permCopy[permIdx++];
                   wordTiles.push({ tile, row: r, col: c });
-                  wordStr += getTileLetter(tile);
                   usedRackTile = true;
                 }
               }
@@ -721,30 +717,4 @@ export function findBestComputerMove(
     }
   }
   return bestMove;
-}
-
-// Helper: get the max number of board tiles in a line from an anchor in a direction
-function getMaxBoardTilesInLine(board: (Tile | null)[][], anchor: { row: number; col: number }, dir: [number, number], BOARD_SIZE: number): number {
-  let count = 0;
-  let r = anchor.row;
-  let c = anchor.col;
-  // Go backward
-  while (true) {
-    r -= dir[0];
-    c -= dir[1];
-    if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
-    if (board[r][c]) count++;
-    else break;
-  }
-  r = anchor.row;
-  c = anchor.col;
-  // Go forward
-  while (true) {
-    r += dir[0];
-    c += dir[1];
-    if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
-    if (board[r][c]) count++;
-    else break;
-  }
-  return count;
 } 

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Board from './components/Board';
 import Rack from './components/Rack';
 import Scoreboard from './components/Scoreboard';
@@ -6,7 +6,7 @@ import Controls from './components/Controls';
 import DefinitionQuiz from './components/DefinitionQuiz';
 import BlankTileModal from './components/BlankTileModal';
 import './App.css';
-import { createTileBag, refillRack, Tile, TileBag, arePlacementsInLine, isMoveConnected, getAllWordsFormed, calculateScore, BOARD_MULTIPLIERS, findSimpleComputerMove, findAdvancedComputerMove, findBestComputerMove } from './utils/gameLogic';
+import { createTileBag, refillRack, Tile, TileBag, arePlacementsInLine, isMoveConnected, getAllWordsFormed, calculateScore, BOARD_MULTIPLIERS, findSimpleComputerMove, findBestComputerMove } from './utils/gameLogic';
 
 // Placeholder imports for components (to be created)
 // import Board from './components/Board';
