@@ -1,0 +1,2208 @@
+{
+  "0": {
+    "part_of_speech": "v",
+    "definition": "to reduce in amount, degree, or severity",
+    "example": "The headache abated after taking medicine.",
+    "word": "abate"
+  },
+  "1": {
+    "part_of_speech": "v",
+    "definition": "to hate or detest",
+    "example": "She abhors cruelty to animals.",
+    "word": "abhor"
+  },
+  "2": {
+    "part_of_speech": "v",
+    "definition": "to refrain or hold back voluntarily",
+    "example": "He abstained from smoking.",
+    "word": "abstain"
+  },
+  "3": {
+    "part_of_speech": "n",
+    "definition": "a gradual buildup or growth by addition",
+    "example": "An accretion of dust covered the furniture.",
+    "word": "accretion"
+  },
+  "4": {
+    "part_of_speech": "adj",
+    "definition": "sharp, biting, or caustic in tone",
+    "example": "She made an acerbic retort.",
+    "word": "acerbic"
+  },
+  "5": {
+    "part_of_speech": "v",
+    "definition": "to gain possession of",
+    "example": "He acquired a taste for opera.",
+    "word": "acquire"
+  },
+  "6": {
+    "part_of_speech": "n",
+    "definition": "keen insight or judgment",
+    "example": "She has excellent business acumen.",
+    "word": "acumen"
+  },
+  "7": {
+    "part_of_speech": "v",
+    "definition": "to stick fast or cleave",
+    "example": "The stamp adhered to the envelope.",
+    "word": "adhere"
+  },
+  "8": {
+    "part_of_speech": "v",
+    "definition": "to caution or advise against",
+    "example": "The teacher admonished the students not to be late.",
+    "word": "admonish"
+  },
+  "9": {
+    "part_of_speech": "adj",
+    "definition": "friendly, good",
+    "word": "affable"
+  },
+  "10": {
+    "part_of_speech": "adj",
+    "definition": "relating to beauty or good taste",
+    "example": "She appreciated modernist aesthetics in art.",
+    "word": "aesthetic"
+  },
+  "11": {
+    "part_of_speech": "v",
+    "definition": "to relieve or make more bearable",
+    "example": "Medication helped alleviate her pain.",
+    "word": "alleviate"
+  },
+  "12": {
+    "part_of_speech": "adj",
+    "definition": "friendly and good",
+    "word": "amiable"
+  },
+  "13": {
+    "part_of_speech": "adj",
+    "definition": "more than sufficient in size or scope",
+    "example": "We had ample time to finish the test.",
+    "word": "ample"
+  },
+  "14": {
+    "part_of_speech": "adj",
+    "definition": "similar or comparable in certain respects",
+    "example": "This process is analogous to how a cell works.",
+    "word": "analogous"
+  },
+  "15": {
+    "part_of_speech": "n",
+    "definition": "something that deviates from the norm",
+    "example": "Finding the artifact was an archaeological anomaly.",
+    "word": "anomaly"
+  },
+  "16": {
+    "part_of_speech": "n",
+    "definition": "a deep dislike or aversion",
+    "example": "He had an antipathy for crowds.",
+    "word": "antipathy"
+  },
+  "17": {
+    "part_of_speech": "adj",
+    "definition": "chosen at random, without reason",
+    "example": "It seemed an arbitrary decision, without rationale.",
+    "word": "arbitrary"
+  },
+  "18": {
+    "part_of_speech": "adj",
+    "definition": "having an exaggerated sense of self",
+    "word": "arrogant"
+  },
+  "19": {
+    "part_of_speech": "v",
+    "definition": "to strive for or ambition to achieve a goal",
+    "example": "She aspired to become an engineer.",
+    "word": "aspire"
+  },
+  "20": {
+    "part_of_speech": "n",
+    "definition": "a strong feeling of dislike, distaste, or hostility",
+    "example": "He had an aversion to spinach since childhood.",
+    "word": "aversion"
+  },
+  "21": {
+    "part_of_speech": "adj",
+    "definition": "lacking originality, freshness, or novelty",
+    "example": "The movie's banal plot was forgettable.",
+    "word": "banal"
+  },
+  "22": {
+    "part_of_speech": "v",
+    "definition": "to make someone or something seem unimportant",
+    "example": "The bullies belittled the shy student.",
+    "word": "belittle"
+  },
+  "23": {
+    "part_of_speech": "adj",
+    "definition": "hostile, aggressive, or pugnacious",
+    "example": "The belligerent gang was known for fighting.",
+    "word": "belligerent"
+  },
+  "24": {
+    "part_of_speech": "adj",
+    "definition": "characterized by or expressing goodwill",
+    "example": "He made a benevolent donation to the animal shelter.",
+    "word": "benevolent"
+  },
+  "25": {
+    "part_of_speech": "v",
+    "definition": "to give vital support, reinforce, or strengthen",
+    "example": "Extra tutoring helped bolster the struggling math student's skills.",
+    "word": "bolster"
+  },
+  "26": {
+    "part_of_speech": "adj",
+    "definition": "high",
+    "word": "bombastic"
+  },
+  "27": {
+    "part_of_speech": "n",
+    "definition": "a blessing, timely benefit, or assistance",
+    "example": "Winning the scholarship was a boon that enabled her to attend college.",
+    "word": "boon"
+  },
+  "28": {
+    "part_of_speech": "n",
+    "definition": "concise expression without wasted words",
+    "example": "Brevity is essential in a 30",
+    "word": "brevity"
+  },
+  "29": {
+    "part_of_speech": "adj",
+    "definition": "abrupt or offhand in speech or manner; rudely concise",
+    "example": "My request was met with a brusque refusal.",
+    "word": "brusque"
+  },
+  "30": {
+    "part_of_speech": "adj",
+    "definition": "very complicated or intricate",
+    "example": "The byzantine tax codes were impossible to decipher.",
+    "word": "byzantine"
+  },
+  "31": {
+    "part_of_speech": "adj",
+    "definition": "showing little sympathy for others; insensitive",
+    "example": "He acted in a callous way toward those less fortunate.",
+    "word": "callous"
+  },
+  "32": {
+    "part_of_speech": "adj",
+    "definition": "free from agitation, disturbance, or tumult; absent of wind",
+    "example": "The calm lake reflected the serene sky.",
+    "word": "calm"
+  },
+  "33": {
+    "part_of_speech": "n",
+    "definition": "honesty, frankness, or sincere expression",
+    "example": "I appreciated her candor and straightforward advice.",
+    "word": "candor"
+  },
+  "34": {
+    "part_of_speech": "adj",
+    "definition": "characterized by or subject to whim; impulsive; unpredictable",
+    "example": "My capricious toddler was happy one minute, fussy the next.",
+    "word": "capricious"
+  },
+  "35": {
+    "part_of_speech": "v",
+    "definition": "to punish or criticize severely",
+    "example": "The boss castigated the employee for repeated mistakes.",
+    "word": "castigate"
+  },
+  "36": {
+    "part_of_speech": "v",
+    "definition": "blame or condemn",
+    "example": "The senator was censured for unethical conduct.",
+    "word": "censure"
+  },
+  "37": {
+    "part_of_speech": "n",
+    "definition": "moral qualities distinctive to an individual; integrity and values",
+    "example": "She is known for her outstanding character and ethics.",
+    "word": "character"
+  },
+  "38": {
+    "part_of_speech": "adj",
+    "definition": "cautious or prudent, especially in speech or action",
+    "example": "We were circumspect in sharing details until we understood the risks involved.",
+    "word": "circumspect"
+  },
+  "39": {
+    "part_of_speech": "adj",
+    "definition": "rough, harsh, or uneven in texture; lacking refinement or elegance",
+    "example": "His coarse language was inappropriate at the dignified ceremony.",
+    "word": "coarse"
+  },
+  "40": {
+    "part_of_speech": "adj",
+    "definition": "composed of interconnected or complicated parts",
+    "example": "The complex machine required an experienced mechanic.",
+    "word": "complex"
+  },
+  "41": {
+    "part_of_speech": "adj",
+    "definition": "expressing much in few words",
+    "example": "a concise summary of the research findings.",
+    "word": "concise"
+  },
+  "42": {
+    "part_of_speech": "v",
+    "definition": "to act in accordance with rules, standards, or customs",
+    "example": "She refused to conform by wearing the uniform.",
+    "word": "conform"
+  },
+  "43": {
+    "part_of_speech": "adj",
+    "definition": "guided by or in accordance with conscience or sense of right; governed by principle",
+    "example": "a conscientious decision after much deliberation.",
+    "word": "conscientious"
+  },
+  "44": {
+    "part_of_speech": "adj",
+    "definition": "remaining unchanged or fixed; showing loyalty or faithfulness",
+    "example": "Water's boiling point is a physical constant.",
+    "word": "constant"
+  },
+  "45": {
+    "part_of_speech": "v",
+    "definition": "to consider thoughtfully",
+    "example": "She contemplated all possible outcomes before deciding.",
+    "word": "contemplate"
+  },
+  "46": {
+    "part_of_speech": "v",
+    "definition": "to give or supply along with others",
+    "example": "We all contributed food to the potluck dinner.",
+    "word": "contribute"
+  },
+  "47": {
+    "part_of_speech": "n",
+    "definition": "scarcity or lack",
+    "example": "There is a dearth of jobs in this struggling economy.",
+    "word": "dearth"
+  },
+  "48": {
+    "part_of_speech": "adj",
+    "definition": "boldly resistant to authority or any opposing force",
+    "example": "The defiant protestors refused to disperse.",
+    "word": "defiant"
+  },
+  "49": {
+    "part_of_speech": "adj",
+    "definition": "fragile, frail, or vulnerable; requiring gentle handling",
+    "example": "The delicate crystal shattered when dropped.",
+    "word": "delicate"
+  },
+  "50": {
+    "part_of_speech": "v",
+    "definition": "to establish or prove by example; clear explanation",
+    "example": "The experiment demonstrated the laws of physics.",
+    "word": "demonstrate"
+  },
+  "51": {
+    "part_of_speech": "v",
+    "definition": "to ridicule, mock, or scornfully laugh at",
+    "example": "The bullies derided the shy student's stutter.",
+    "word": "deride"
+  },
+  "52": {
+    "part_of_speech": "adj",
+    "definition": "depressing, bleak, lifeless; barren",
+    "example": "The remote desert island was completely desolate.",
+    "word": "desolate"
+  },
+  "53": {
+    "part_of_speech": "v",
+    "definition": "to separate or disengage from association",
+    "example": "He detached the document from the email before forwarding.",
+    "word": "detach"
+  },
+  "54": {
+    "part_of_speech": "adj",
+    "definition": "characterized by steady, earnest, and energetic application",
+    "example": "The diligent student made sure to study every day.",
+    "word": "diligent"
+  },
+  "55": {
+    "part_of_speech": "v",
+    "definition": "to make known, reveal, or uncover",
+    "example": "The CEO disclosed the company's financial problems.",
+    "word": "disclose"
+  },
+  "56": {
+    "part_of_speech": "adj",
+    "definition": "causing gloom or depression",
+    "example": "The dismal weather matched her sad mood.",
+    "word": "dismal"
+  },
+  "57": {
+    "part_of_speech": "v",
+    "definition": "to spread or scatter widely",
+    "example": "The police dispersed the rowdy crowd that gathered in the park.",
+    "word": "disperse"
+  },
+  "58": {
+    "part_of_speech": "adj",
+    "definition": "doubtful or suspect; of uncertain quality or outcome",
+    "example": "She had dubious qualifications for the job.",
+    "word": "dubious"
+  },
+  "59": {
+    "part_of_speech": "adj",
+    "definition": "boring, monotonous, lacking sharpness",
+    "example": "The dull lecture soon put me to sleep.",
+    "word": "dull"
+  },
+  "60": {
+    "part_of_speech": "adj",
+    "definition": "deriving ideas or style from a diverse range of sources",
+    "example": "Their home decor had an eclectic mix of modern and antique.",
+    "word": "eclectic"
+  },
+  "61": {
+    "part_of_speech": "v",
+    "definition": "to instruct, improve, or enlighten",
+    "example": "The book was both entertaining and edifying.",
+    "word": "edify"
+  },
+  "62": {
+    "part_of_speech": "adj",
+    "definition": "relating to or believing in equality for all people",
+    "example": "He advocated an egalitarian society.",
+    "word": "egalitarian"
+  },
+  "63": {
+    "part_of_speech": "v",
+    "definition": "to draw forth or bring out",
+    "example": "Skillful questioning elicited her eyewitness account.",
+    "word": "elicit"
+  },
+  "64": {
+    "part_of_speech": "adj",
+    "definition": "prominent, distinguished, or noteworthy",
+    "example": "The eminent scholar was awarded the Nobel Prize.",
+    "word": "eminent"
+  },
+  "65": {
+    "part_of_speech": "n",
+    "definition": "the ability to understand another's perspective, feelings, or difficulties",
+    "example": "She showed genuine empathy for the grieving widow.",
+    "word": "empathy"
+  },
+  "66": {
+    "part_of_speech": "n",
+    "definition": "something or someone puzzling, mysterious, or difficult to understand",
+    "example": "The coded message was an enigma they couldn't decipher.",
+    "word": "enigma"
+  },
+  "67": {
+    "part_of_speech": "adj",
+    "definition": "open to more than one interpretation; purposefully vague or ambiguous",
+    "example": "His equivocal instructions left me confused about what to do.",
+    "word": "equivocal"
+  },
+  "68": {
+    "part_of_speech": "v",
+    "definition": "to summon or call forth",
+    "example": "Childhood photos evoked strong memories from long ago.",
+    "word": "evoke"
+  },
+  "69": {
+    "part_of_speech": "adj",
+    "definition": "precise, accurate, or correct in every detail",
+    "example": "Could you give me the exact amount needed?",
+    "word": "exact"
+  },
+  "70": {
+    "part_of_speech": "adj",
+    "definition": "suitable for achieving a particular end; pragmatically useful",
+    "example": "In a crisis, quick action may be more expedient than detailed planning.",
+    "word": "expedient"
+  },
+  "71": {
+    "part_of_speech": "adj",
+    "definition": "clearly and directly stated, leaving no room for confusion",
+    "example": "The teacher was explicit that assignments must be turned in on time.",
+    "word": "explicit"
+  },
+  "72": {
+    "part_of_speech": "v",
+    "definition": "to praise highly or glorify",
+    "example": "The eulogy extolled the deceased's virtues and accomplishments.",
+    "word": "extol"
+  },
+  "73": {
+    "part_of_speech": "v",
+    "definition": "to free or release from a difficult situation or entanglement",
+    "example": "Firefighters extricated the injured driver from the mangled car.",
+    "word": "extricate"
+  },
+  "74": {
+    "part_of_speech": "v",
+    "definition": "to make easier or help bring about",
+    "example": "The mediator helped facilitate an agreement.",
+    "word": "facilitate"
+  },
+  "75": {
+    "part_of_speech": "v",
+    "definition": "to understand something thoroughly",
+    "example": "I couldn't fathom his reason for quitting without notice.",
+    "word": "fathom"
+  },
+  "76": {
+    "part_of_speech": "adj",
+    "definition": "silly, foolish, smugly ignorant",
+    "example": "He made fatuous arguments that revealed little understanding of the issue.",
+    "word": "fatuous"
+  },
+  "77": {
+    "part_of_speech": "adj",
+    "definition": "weak, ineffective, incompetent; irresponsible",
+    "example": "His feckless leadership led the company to ruin.",
+    "word": "feckless"
+  },
+  "78": {
+    "part_of_speech": "n",
+    "definition": "great warmth and intensity of feeling",
+    "example": "She spoke with fervor about her political beliefs.",
+    "word": "fervor"
+  },
+  "79": {
+    "part_of_speech": "adj",
+    "definition": "frequently changing, erratic",
+    "example": "His fickle behavior left her confused.",
+    "word": "fickle"
+  },
+  "80": {
+    "part_of_speech": "adj",
+    "definition": "glaringly bad or offensive; a flagrant foul during the game",
+    "example": "flagrant disregard for the law.",
+    "word": "flagrant"
+  },
+  "81": {
+    "part_of_speech": "adj",
+    "definition": "thin and easily bent or damaged; lacking plausibility",
+    "example": "She offered a flimsy excuse for missing class.",
+    "word": "flimsy"
+  },
+  "82": {
+    "part_of_speech": "v",
+    "definition": "to openly disregard rules or conventions",
+    "example": "She flouted the school dress code with her outfit.",
+    "word": "flout"
+  },
+  "83": {
+    "part_of_speech": "adj",
+    "definition": "practicing or reflecting economy in use of resources",
+    "example": "simple, plain, cost",
+    "word": "frugal"
+  },
+  "84": {
+    "part_of_speech": "adj",
+    "definition": "excessively talkative, especially about trivial matters",
+    "example": "My garrulous neighbor loved chatting over the fence each morning.",
+    "word": "garrulous"
+  },
+  "85": {
+    "part_of_speech": "adj",
+    "definition": "relevant and appropriate for the subject at hand",
+    "example": "His rambling anecdote was not germane to the discussion.",
+    "word": "germane"
+  },
+  "86": {
+    "part_of_speech": "adj",
+    "definition": "serious; requiring consideration",
+    "example": "The doctor had a grave expression when giving the prognosis.",
+    "word": "grave"
+  },
+  "87": {
+    "part_of_speech": "adj",
+    "definition": "sociable, seeking and enjoying the company of others",
+    "example": "Humans are naturally gregarious and form bonds through social contact.",
+    "word": "gregarious"
+  },
+  "88": {
+    "part_of_speech": "adj",
+    "definition": "blatant, outrageous, or unambiguous; lacking refinement or dignity",
+    "example": "His gross exaggerations undermined his credibility.",
+    "word": "gross"
+  },
+  "89": {
+    "part_of_speech": "n",
+    "definition": "cunning, deceitful shrewdness or treachery",
+    "example": "She betrayed her friend out of pure guile.",
+    "word": "guile"
+  },
+  "90": {
+    "part_of_speech": "adj",
+    "definition": "easily persuaded to believe something; naive, credulous",
+    "example": "The scammer took advantage of gullible people.",
+    "word": "gullible"
+  },
+  "91": {
+    "part_of_speech": "adj",
+    "definition": "arrogantly superior, disdainful, looking down on others",
+    "example": "The haughty queen barely acknowledged the peasants.",
+    "word": "haughty"
+  },
+  "92": {
+    "part_of_speech": "v",
+    "definition": "to pause in uncertainty or have difficulty choosing",
+    "example": "She hesitated before exiting the stage, nerves getting the best of her.",
+    "word": "hesitate"
+  },
+  "93": {
+    "part_of_speech": "v",
+    "definition": "to hamper, obstruct, or delay",
+    "example": "The snowstorm will likely hinder travel plans.",
+    "word": "hinder"
+  },
+  "94": {
+    "part_of_speech": "adj",
+    "definition": "having or showing ill will, animosity, opposition",
+    "example": "The hostile crowd shouted angrily at the politician.",
+    "word": "hostile"
+  },
+  "95": {
+    "part_of_speech": "n",
+    "definition": "exaggerated statements or claims not meant to be taken literally; Saying he was starving was hyperbole",
+    "example": "he just wanted a snack.",
+    "word": "hyperbole"
+  },
+  "96": {
+    "part_of_speech": "n",
+    "definition": "one who attacks or undermines traditional conventions or institutions",
+    "example": "The rebel was an iconoclast who challenged the status quo.",
+    "word": "iconoclast"
+  },
+  "97": {
+    "part_of_speech": "v",
+    "definition": "to worship or admire intensely and often excessively",
+    "example": "Young girls often idolize celebrities and pop stars.",
+    "word": "idolize"
+  },
+  "98": {
+    "part_of_speech": "v",
+    "definition": "to supply or brighten with light; enlighten",
+    "example": "His lecture helped illuminate and explain Plato's philosophy.",
+    "word": "illuminate"
+  },
+  "99": {
+    "part_of_speech": "n",
+    "definition": "something that deceives or misleads intellectually",
+    "example": "The magician created illusions that seemed to defy physics.",
+    "word": "illusion"
+  },
+  "100": {
+    "part_of_speech": "v",
+    "definition": "to clarify or explain through use of examples, analogies, pictures",
+    "example": "The textbook illustrations made the topic clearer.",
+    "word": "illustrate"
+  },
+  "101": {
+    "part_of_speech": "adj",
+    "definition": "unchanging; unable to be changed or transformed",
+    "example": "The laws of mathematics are immutable, fixed pillars of logic.",
+    "word": "immutable"
+  },
+  "102": {
+    "part_of_speech": "adj",
+    "definition": "treating all sides equally; unbiased, objective",
+    "example": "As a judge, she prided herself on being impartial.",
+    "word": "impartial"
+  },
+  "103": {
+    "part_of_speech": "v",
+    "definition": "to interfere with, slow the progress of, or obstruct",
+    "example": "The fallen tree impeded traffic for hours.",
+    "word": "impede"
+  },
+  "104": {
+    "part_of_speech": "adj",
+    "definition": "about to happen, imminent, approaching",
+    "example": "We prepared for the impending storm.",
+    "word": "impending"
+  },
+  "105": {
+    "part_of_speech": "adj",
+    "definition": "implied but not expressly stated",
+    "example": "There was an implicit threat that loomed without being uttered.",
+    "word": "implicit"
+  },
+  "106": {
+    "part_of_speech": "adj",
+    "definition": "acting on sudden desires or whims; prone to act on instinct rather than thought",
+    "example": "Buying the expensive luxury car was an impulsive decision she later regretted.",
+    "word": "impulsive"
+  },
+  "107": {
+    "part_of_speech": "adj",
+    "definition": "unintentional; not resulting from or due to a particular cause; His insult was inadvertent",
+    "example": "he didn't realize his remark would offend.",
+    "word": "inadvertent"
+  },
+  "108": {
+    "part_of_speech": "adj",
+    "definition": "showing keen discernment, sharpness of mind",
+    "example": "Her incisive critiques greatly improved the manuscript.",
+    "word": "incisive"
+  },
+  "109": {
+    "part_of_speech": "adj",
+    "definition": "lacking logical or meaningful connection; disjointed; scrambled",
+    "example": "His incoherent ramblings made little sense to the rest of us.",
+    "word": "incoherent"
+  },
+  "110": {
+    "part_of_speech": "adj",
+    "definition": "inconsistent; not harmonious",
+    "example": "The bright pink couch was incongruous with the room's subdued color scheme.",
+    "word": "incongruous"
+  },
+  "111": {
+    "part_of_speech": "adj",
+    "definition": "incapable of being corrected or reformed; naughty; mischievous",
+    "example": "The incorrigible bully would not change his ways despite intervention.",
+    "word": "incorrigible"
+  },
+  "112": {
+    "part_of_speech": "adj",
+    "definition": "unable or unwilling to believe something",
+    "example": "She was incredulous that she won the lottery against such odds.",
+    "word": "incredulous"
+  },
+  "113": {
+    "part_of_speech": "adj",
+    "definition": "making marks that cannot be erased, washed away, or removed",
+    "example": "Childhood memories of summers at the lake were indelible, never fading with time.",
+    "word": "indelible"
+  },
+  "114": {
+    "part_of_speech": "n",
+    "definition": "lack of interest, concern, or sympathy",
+    "example": "His indifference towards her was obvious by his disengaged manner.",
+    "word": "indifference"
+  },
+  "115": {
+    "part_of_speech": "adj",
+    "definition": "angrily offended due to perceived unfair treatment",
+    "example": "I was indignant after being accused without cause.",
+    "word": "indignant"
+  },
+  "116": {
+    "part_of_speech": "adj",
+    "definition": "impossible to question or doubt; unquestionable",
+    "example": "The evidence was indisputable that he was guilty of the crime.",
+    "word": "indisputable"
+  },
+  "117": {
+    "part_of_speech": "adj",
+    "definition": "lacking power to move, lifeless, inactive",
+    "example": "The car remained inert after the battery died.",
+    "word": "inert"
+  },
+  "118": {
+    "part_of_speech": "adj",
+    "definition": "impossible to avoid; certain to eventually happen",
+    "example": "Death is the inevitable conclusion of life.",
+    "word": "inevitable"
+  },
+  "119": {
+    "part_of_speech": "adj",
+    "definition": "harmless, causing no damage or offense",
+    "example": "The comments in her speech were innocuous enough not to provoke much reaction.",
+    "word": "innocuous"
+  },
+  "120": {
+    "part_of_speech": "adj",
+    "definition": "stealthily and harmfully treacherous or deceitful",
+    "example": "Cancer can be an insidious disease, quietly spreading before detection.",
+    "word": "insidious"
+  },
+  "121": {
+    "part_of_speech": "n",
+    "definition": "firm adherence to moral principles; honesty, incorruptibility",
+    "example": "Known for his integrity, they trusted he would do what was right.",
+    "word": "integrity"
+  },
+  "122": {
+    "part_of_speech": "adj",
+    "definition": "possessing or displaying great concentration, zeal, or feeling",
+    "example": "She spoke with intense passion that swayed the crowd.",
+    "word": "intense"
+  },
+  "123": {
+    "part_of_speech": "adj",
+    "definition": "occurring at irregular intervals; on and off; starting and stopping",
+    "example": "The intermittent windshield wipers cleared the rain from the glass.",
+    "word": "intermittent"
+  },
+  "124": {
+    "part_of_speech": "adj",
+    "definition": "belonging naturally to someone or something; innate, inherent",
+    "example": "Learning is an intrinsic reward of teaching.",
+    "word": "intrinsic"
+  },
+  "125": {
+    "part_of_speech": "n",
+    "definition": "immediate insight or understanding without conscious reasoning",
+    "example": "He relied on intuition to make split",
+    "word": "intuition"
+  },
+  "126": {
+    "part_of_speech": "v",
+    "definition": "to overwhelm as if with a flood",
+    "example": "My desk was inundated with paperwork.",
+    "word": "inundate"
+  },
+  "127": {
+    "part_of_speech": "adj",
+    "definition": "imaginative, creative, able to think of new things or solve problems uniquely",
+    "example": "Her inventive recipes were a big hit on her cooking blog.",
+    "word": "inventive"
+  },
+  "128": {
+    "part_of_speech": "adj",
+    "definition": "turned inside out or upside down; reversed in position or order",
+    "example": "The plane flew upside down in an inverted loop.",
+    "word": "inverted"
+  },
+  "129": {
+    "part_of_speech": "adj",
+    "definition": "not applicable or related to the subject at hand",
+    "example": "His rambling story was irrelevant to the topic being discussed.",
+    "word": "irrelevant"
+  },
+  "130": {
+    "part_of_speech": "adj",
+    "definition": "showing lack of due respect or veneration",
+    "example": "The student's irreverent remarks during chapel earned him a detention.",
+    "word": "irreverent"
+  },
+  "131": {
+    "part_of_speech": "adj",
+    "definition": "showing sound judgment; wise and prudent",
+    "example": "After judicious thought, she made the right choice.",
+    "word": "judicious"
+  },
+  "132": {
+    "part_of_speech": "adj",
+    "definition": "eagerly enthusiastic; intensely sensitive or perceptive",
+    "example": "He had a keen interest in astronomy and could name many constellations.",
+    "word": "keen"
+  },
+  "133": {
+    "part_of_speech": "adj",
+    "definition": "relating to or resulting from motion",
+    "example": "kinetic or dynamic",
+    "word": "kinetic"
+  },
+  "134": {
+    "part_of_speech": "adj",
+    "definition": "possessing expertise or extensive information",
+    "example": "My attorney is very knowledgeable about tax law.",
+    "word": "knowledgeable"
+  },
+  "135": {
+    "part_of_speech": "adj",
+    "definition": "using few words; terse, succinct",
+    "example": "His laconic reply gave little information.",
+    "word": "laconic"
+  },
+  "136": {
+    "part_of_speech": "v",
+    "definition": "to mourn or express grief over, usually due to loss",
+    "example": "She lamented over a faded photo from her childhood.",
+    "word": "lament"
+  },
+  "137": {
+    "part_of_speech": "adj",
+    "definition": "lacking energy, vitality or strength; lazy and relaxed",
+    "example": "Moving with languid grace, the cat stretched in a patch of sunlight.",
+    "word": "languid"
+  },
+  "138": {
+    "part_of_speech": "adj",
+    "definition": "clear, easy to perceive or understand; expressing oneself intelligibly and rationally",
+    "example": "After a good night's rest, she awoke feeling lucid and refreshed.",
+    "word": "lucid"
+  },
+  "139": {
+    "part_of_speech": "adj",
+    "definition": "kind, forgiving, noble in spirit; extraordinarily generous",
+    "example": "The magnanimous victor helped his opponent to his feet.",
+    "word": "magnanimous"
+  },
+  "140": {
+    "part_of_speech": "adj",
+    "definition": "intentionally harmful, spiteful, or evil",
+    "example": "spreading pernicious gossip for the sake of malice.",
+    "word": "malicious"
+  },
+  "141": {
+    "part_of_speech": "adj",
+    "definition": "capable of being shaped or formed; adaptable, moldable",
+    "example": "Gold is an extremely malleable metal that can be hammered into thin sheets.",
+    "word": "malleable"
+  },
+  "142": {
+    "part_of_speech": "v",
+    "definition": "to show or demonstrate something clearly; to reveal or display",
+    "example": "Her sadness over the breakup was manifest by her tear",
+    "word": "manifest"
+  },
+  "143": {
+    "part_of_speech": "adj",
+    "definition": "characterized by great attention to detail; very careful and precise",
+    "example": "The meticulous craftsman produced flawless work.",
+    "word": "meticulous"
+  },
+  "144": {
+    "part_of_speech": "v",
+    "definition": "to interpret something erroneously; take in a wrong sense",
+    "example": "She misconstrued the honking horn to be meant as an insult.",
+    "word": "misconstrue"
+  },
+  "145": {
+    "part_of_speech": "adj",
+    "definition": "humble, unassuming, not boastful; moderate in size or amount",
+    "example": "She had a modest upbringing but achieved wild success.",
+    "word": "modest"
+  },
+  "146": {
+    "part_of_speech": "adj",
+    "definition": "ordinary, everyday, unexciting; routine",
+    "example": "Paying bills and cleaning are mundane household chores.",
+    "word": "mundane"
+  },
+  "147": {
+    "part_of_speech": "adj",
+    "definition": "vague, cloudy, lacking clearly defined form",
+    "example": "The future was nebulous, and no one knew exactly what to expect.",
+    "word": "nebulous"
+  },
+  "148": {
+    "part_of_speech": "n",
+    "definition": "the condition of being famous or well",
+    "word": "notoriety"
+  },
+  "149": {
+    "part_of_speech": "adj",
+    "definition": "refreshingly new or different",
+    "example": "The novel gadget seemed like something from the distant future.",
+    "word": "novel"
+  },
+  "150": {
+    "part_of_speech": "n",
+    "definition": "a subtle difference or distinction in expression or meaning",
+    "example": "There were subtle nuances in meaning between those two words that most people missed.",
+    "word": "nuance"
+  },
+  "151": {
+    "part_of_speech": "adj",
+    "definition": "unaware; unconscious; having no memory",
+    "example": "She was oblivious to the gossip swirling around her as she hummed a happy tune.",
+    "word": "oblivious"
+  },
+  "152": {
+    "part_of_speech": "adj",
+    "definition": "no longer used, out of date",
+    "example": "Replaced by email, fax machines are now obsolete.",
+    "word": "obsolete"
+  },
+  "153": {
+    "part_of_speech": "adj",
+    "definition": "stubbornly adhering to an attitude, opinion, or course of action",
+    "example": "Despite repeated warnings, he was obstinate about changing his risky ways.",
+    "word": "obstinate"
+  },
+  "154": {
+    "part_of_speech": "adj",
+    "definition": "threatening or foreshadowing evil, misfortune, or trouble",
+    "example": "Dark clouds loomed ominously on the horizon before the violent storm struck.",
+    "word": "ominous"
+  },
+  "155": {
+    "part_of_speech": "adj",
+    "definition": "involving heavy effort, burden, or hardship",
+    "example": "The onerous chore of clearing the snowy driveway took several grueling hours.",
+    "word": "onerous"
+  },
+  "156": {
+    "part_of_speech": "adj",
+    "definition": "impenetrable by light; not reflecting light",
+    "example": "Heavy fog made driving conditions opaque, obscuring all visibility.",
+    "word": "opaque"
+  },
+  "157": {
+    "part_of_speech": "adj",
+    "definition": "not transparent; impossible to see through",
+    "example": "This ceramic vase has an opaque milky glaze over the outside.",
+    "word": "opaque_2"
+  },
+  "158": {
+    "part_of_speech": "adj",
+    "definition": "characterized by extravagant luxury and sumptuousness",
+    "example": "The opulent mansion had every expensive amenity imaginable.",
+    "word": "opulent"
+  },
+  "159": {
+    "part_of_speech": "v",
+    "definition": "to exclude or banish from a group or society",
+    "example": "The mean girls ostracized the new student, ignoring and shunning her.",
+    "word": "ostracize"
+  },
+  "160": {
+    "part_of_speech": "adj",
+    "definition": "done or shown openly, plainly apparent; not hidden",
+    "example": "His overt stare made his attraction to her obvious.",
+    "word": "overt"
+  },
+  "161": {
+    "part_of_speech": "v",
+    "definition": "to lessen the severity of; moderate",
+    "example": "His medication helped palliate, but not eliminate, his chronic pain.",
+    "word": "palliate"
+  },
+  "162": {
+    "part_of_speech": "adj",
+    "definition": "insignificant or inadequate",
+    "example": "The paltry sum barely covered expenses.",
+    "word": "paltry"
+  },
+  "163": {
+    "part_of_speech": "n",
+    "definition": "a statement seeming to contradict itself but that may nonetheless be true",
+    "example": "The phrase \"less is more\" initially seems paradoxical but contains some truth.",
+    "word": "paradox"
+  },
+  "164": {
+    "part_of_speech": "adj",
+    "definition": "deeply, seriously thoughtful; lost in thought",
+    "example": "She grew pensive and withdrew into silent contemplation.",
+    "word": "pensive"
+  },
+  "165": {
+    "part_of_speech": "v",
+    "definition": "to become aware of through the senses",
+    "example": "I faintly perceived the floral scent through the strong odor of coffee.",
+    "word": "perceive"
+  },
+  "166": {
+    "part_of_speech": "adj",
+    "definition": "routine, mechanical, done without care",
+    "example": "His perfunctory handshake revealed his apathy toward meeting me.",
+    "word": "perfunctory"
+  },
+  "167": {
+    "part_of_speech": "adj",
+    "definition": "extremely hazardous or dangerous",
+    "example": "We wisely turned back from the perilous mountain path.",
+    "word": "perilous"
+  },
+  "168": {
+    "part_of_speech": "v",
+    "definition": "to spread throughout or penetrate something",
+    "example": "The odor of garlic permeated the entire kitchen.",
+    "word": "permeate"
+  },
+  "169": {
+    "part_of_speech": "adj",
+    "definition": "uninterrupted, ceaseless, eternal",
+    "example": "The perpetual tide ebbs and flows without pause.",
+    "word": "perpetual"
+  },
+  "170": {
+    "part_of_speech": "v",
+    "definition": "to persist despite obstacles or adversity",
+    "example": "She persevered through injuries to achieve her Olympic dream.",
+    "word": "persevere"
+  },
+  "171": {
+    "part_of_speech": "adj",
+    "definition": "acutely perceptive or discerning; penetrating",
+    "example": "The detective was known for his perspicacious observations at crime scenes.",
+    "word": "perspicacious"
+  },
+  "172": {
+    "part_of_speech": "adj",
+    "definition": "directly and significantly related to the matter at hand",
+    "example": "His pertinent insights shed new light on the issue being discussed.",
+    "word": "pertinent"
+  },
+  "173": {
+    "part_of_speech": "v",
+    "definition": "to read or examine, typically with thoroughness or care",
+    "example": "I perused the document carefully before signing it.",
+    "word": "peruse"
+  },
+  "174": {
+    "part_of_speech": "adj",
+    "definition": "rudely impatient, irritable",
+    "example": "childishly sulky or bad",
+    "word": "petulant"
+  },
+  "175": {
+    "part_of_speech": "n",
+    "definition": "an observable fact or event; something extraordinary or remarkable",
+    "example": "A meteor shower is a natural phenomenon.",
+    "word": "phenomenon"
+  },
+  "176": {
+    "part_of_speech": "adj",
+    "definition": "relating to philosophy; calm, stoic, guided by reason",
+    "example": "He faced hardship with a philosophical attitude, trying to understand life's deeper purpose.",
+    "word": "philosophical"
+  },
+  "177": {
+    "part_of_speech": "v",
+    "definition": "to make less hostile or angry, typically by showing willingness to negotiate or compromise",
+    "example": "The management tried to placate the dissatisfied workers by promising better conditions.",
+    "word": "placate"
+  },
+  "178": {
+    "part_of_speech": "adj",
+    "definition": "free from disturbance or tumult; calm, peaceful, undisturbed",
+    "example": "The placid lake reflected the serene sky flawlessly.",
+    "word": "placid"
+  },
+  "179": {
+    "part_of_speech": "adj",
+    "definition": "seemingly or apparently valid, likely, or acceptable; believable",
+    "example": "She offered a plausible excuse for missing the appointment.",
+    "word": "plausible"
+  },
+  "180": {
+    "part_of_speech": "n",
+    "definition": "a bad or unfortunate situation",
+    "example": "Her financial plight gradually worsened until she lost her house.",
+    "word": "plight"
+  },
+  "181": {
+    "part_of_speech": "v",
+    "definition": "to consider or reflect on something carefully and thoroughly",
+    "example": "He pondered the implications of his momentous decision for days.",
+    "word": "ponder"
+  },
+  "182": {
+    "part_of_speech": "adj",
+    "definition": "sensible, realistic, concerned with actual usage",
+    "example": "Her idea offered a practical solution that could be easily implemented.",
+    "word": "practical"
+  },
+  "183": {
+    "part_of_speech": "adj",
+    "definition": "practical, down",
+    "word": "pragmatic"
+  },
+  "184": {
+    "part_of_speech": "adj",
+    "definition": "dangerously lacking stability or certainty; dependent on chance",
+    "example": "The vase was in a precarious position on the tilting table.",
+    "word": "precarious"
+  },
+  "185": {
+    "part_of_speech": "n",
+    "definition": "an act that establishes a model or guide for subsequent situations",
+    "example": "The legal precedent influenced similar cases for years.",
+    "word": "precedent"
+  },
+  "186": {
+    "part_of_speech": "adj",
+    "definition": "marked by exactness and accuracy",
+    "example": "Could you be more precise about the time you arrived?",
+    "word": "precise"
+  },
+  "187": {
+    "part_of_speech": "v",
+    "definition": "to prevent from happening; exclude",
+    "example": "Circumstances precluded her from accepting the job offer.",
+    "word": "preclude"
+  },
+  "188": {
+    "part_of_speech": "n",
+    "definition": "a preference, partiality, prepossession",
+    "example": "His predilection for the color blue was evident in his wardrobe.",
+    "word": "predilection"
+  },
+  "189": {
+    "part_of_speech": "adj",
+    "definition": "superior in achievement or standing; foremost",
+    "example": "She is the preeminent expert in her scientific field.",
+    "word": "preeminent"
+  },
+  "190": {
+    "part_of_speech": "v",
+    "definition": "to plan or plot in advance",
+    "example": "The robbery was premeditated, not spontaneous.",
+    "word": "premeditate"
+  },
+  "191": {
+    "part_of_speech": "n",
+    "definition": "a proposition upon which an argument, theory, or calculation is based",
+    "example": "The conclusions relied on a false premise.",
+    "word": "premise"
+  },
+  "192": {
+    "part_of_speech": "adj",
+    "definition": "overstepping due bounds; taking liberties",
+    "example": "I felt it was presumptuous of him to assume we were friends.",
+    "word": "presumptuous"
+  },
+  "193": {
+    "part_of_speech": "n",
+    "definition": "a false display, a claim not supported by fact",
+    "example": "His anger was just a pretense to cover his sadness and hurt.",
+    "word": "pretense"
+  },
+  "194": {
+    "part_of_speech": "adj",
+    "definition": "widespread, common, predominant",
+    "example": "Flu was prevalent that winter, affecting thousands in the city.",
+    "word": "prevalent"
+  },
+  "195": {
+    "part_of_speech": "adj",
+    "definition": "guided by moral values",
+    "example": "She was a principled leader who always tried to do what was right.",
+    "word": "principled"
+  },
+  "196": {
+    "part_of_speech": "adj",
+    "definition": "abundant in size, force, or extent; extraordinary",
+    "example": "Gustav had prodigious strength despite his small frame.",
+    "word": "prodigious"
+  },
+  "197": {
+    "part_of_speech": "n",
+    "definition": "speech that condemns or demeans that which is sacred or divine; foul, offensive language",
+    "example": "The unruly student shouted profanity across the playground.",
+    "word": "profanity"
+  },
+  "198": {
+    "part_of_speech": "adj",
+    "definition": "showing deep knowledge and insight",
+    "example": "His speech shared profound wisdom from decades of experience.",
+    "word": "profound"
+  },
+  "199": {
+    "part_of_speech": "adj",
+    "definition": "abundantly productive; immensely creative",
+    "example": "The prolific composer created hundreds of musical works in his lifetime.",
+    "word": "prolific"
+  },
+  "200": {
+    "part_of_speech": "v",
+    "definition": "to lengthen in duration, scope, or extent",
+    "example": "They prolonged their vacation a few extra days.",
+    "word": "prolong"
+  },
+  "201": {
+    "part_of_speech": "adj",
+    "definition": "widely known and esteemed; conspicuous, important",
+    "example": "The prominent landmark could be seen across the countryside.",
+    "word": "prominent"
+  },
+  "202": {
+    "part_of_speech": "v",
+    "definition": "to proclaim or put a law or policy into action or force",
+    "example": "The president promulgated a controversial new initiative.",
+    "word": "promulgate"
+  },
+  "203": {
+    "part_of_speech": "adj",
+    "definition": "wisely careful and sensible, marked by sound judgment",
+    "example": "It would be more prudent to save for retirement than splurge on a fancy car.",
+    "word": "prudent"
+  },
+  "204": {
+    "part_of_speech": "adj",
+    "definition": "sharply affecting the senses, stinging; having a penetrating quality",
+    "example": "The pungent onion made my eyes water as I chopped it.",
+    "word": "pungent"
+  },
+  "205": {
+    "part_of_speech": "n",
+    "definition": "a state of perplexity, uncertainty what to do",
+    "example": "I faced an ethical quandary between competing loyalties.",
+    "word": "quandary"
+  },
+  "206": {
+    "part_of_speech": "n",
+    "definition": "a question, inquiry",
+    "example": "Her gracious query made me feel welcome at the event.",
+    "word": "query"
+  },
+  "207": {
+    "part_of_speech": "v",
+    "definition": "to argue or complain about trivial matters",
+    "example": "He has a tendency to quibble over minor details.",
+    "word": "quibble"
+  },
+  "208": {
+    "part_of_speech": "adj",
+    "definition": "at rest, dormant, temporarily inactive",
+    "example": "The volcanoes were quiescent for centuries before unexpectedly erupting.",
+    "word": "quiescent"
+  },
+  "209": {
+    "part_of_speech": "adj",
+    "definition": "idealistic without regard to practicality; impractical or unrealistic",
+    "example": "His quixotic plan had little chance of succeeding in the real world.",
+    "word": "quixotic"
+  },
+  "210": {
+    "part_of_speech": "adj",
+    "definition": "everyday, mundane, commonplace",
+    "example": "Making my morning coffee was part of my quotidian routine.",
+    "word": "quotidian"
+  },
+  "211": {
+    "part_of_speech": "adj",
+    "definition": "having a harsh or unpleasant smell or taste, often due to decay",
+    "example": "The rancid milk was spoiled and inedible.",
+    "word": "rancid"
+  },
+  "212": {
+    "part_of_speech": "adj",
+    "definition": "refined; relating to a select group",
+    "example": "The rarefied intellectual discussion was beyond me.",
+    "word": "rarefied"
+  },
+  "213": {
+    "part_of_speech": "adj",
+    "definition": "acting hastily without deliberation; abrupt decision making",
+    "example": "It was rash of him to quit his job without another one lined up.",
+    "word": "rash"
+  },
+  "214": {
+    "part_of_speech": "v",
+    "definition": "to reject bluntly; snub",
+    "example": "She rebuffed his flirtatious advances.",
+    "word": "rebuff"
+  },
+  "215": {
+    "part_of_speech": "n",
+    "definition": "a refutation or contradiction in argument",
+    "example": "My opponent offered a lengthy rebuttal to each of my points.",
+    "word": "rebuttal"
+  },
+  "216": {
+    "part_of_speech": "adj",
+    "definition": "obstinately defiant; stubbornly resistant to authority",
+    "example": "The recalcitrant child flatly refused to obey her parents' rules.",
+    "word": "recalcitrant"
+  },
+  "217": {
+    "part_of_speech": "v",
+    "definition": "to retract a previous statement; take back as erroneous",
+    "example": "Under questioning, she recanted her earlier testimony.",
+    "word": "recant"
+  },
+  "218": {
+    "part_of_speech": "n",
+    "definition": "a person who lives a solitary life, avoiding other people; a loner",
+    "example": "After his wife passed away, the recluse rarely spoke to anyone.",
+    "word": "recluse"
+  },
+  "219": {
+    "part_of_speech": "v",
+    "definition": "to make consistent or compatible; settle",
+    "example": "I tried to reconcile the contradictory statements.",
+    "word": "reconcile"
+  },
+  "220": {
+    "part_of_speech": "v",
+    "definition": "to prove a claim false or erroneous",
+    "example": "New evidence has refuted the old assumptions.",
+    "word": "refute"
+  },
+  "221": {
+    "part_of_speech": "adj",
+    "definition": "royal; fit for a king; dignified and majestic",
+    "example": "She exuded regal poise and confidence.",
+    "word": "regal"
+  },
+  "222": {
+    "part_of_speech": "v",
+    "definition": "to assign to an unimportant position",
+    "example": "The actor was relegated to minor supporting roles after starring in films.",
+    "word": "relegate"
+  },
+  "223": {
+    "part_of_speech": "v",
+    "definition": "to savor or delight in",
+    "example": "I relished every moment of the long",
+    "word": "relish"
+  },
+  "224": {
+    "part_of_speech": "adj",
+    "definition": "unwilling, hesitant; not eager",
+    "example": "She was reluctant to move across the country, leaving her home and friends.",
+    "word": "reluctant"
+  },
+  "225": {
+    "part_of_speech": "v",
+    "definition": "to recall and talk about past experiences or events",
+    "example": "Grandpa loved reminiscing about the old days.",
+    "word": "reminisce"
+  },
+  "226": {
+    "part_of_speech": "n",
+    "definition": "deep regret or guilt for doing wrong",
+    "example": "He felt remorse for his unkind words.",
+    "word": "remorse"
+  },
+  "227": {
+    "part_of_speech": "v",
+    "definition": "to provide, deliver, or represent",
+    "example": "I will render assistance any way I can.",
+    "word": "render"
+  },
+  "228": {
+    "part_of_speech": "v",
+    "definition": "to fail to honor a commitment or promise",
+    "example": "She reneged on her offer to help with the bake sale.",
+    "word": "renege"
+  },
+  "229": {
+    "part_of_speech": "n",
+    "definition": "fame, celebrated reputation",
+    "example": "cities of great renown that attract many tourists.",
+    "word": "renown"
+  },
+  "230": {
+    "part_of_speech": "adj",
+    "definition": "deserving severe condemnation, completely unacceptable",
+    "example": "Society considered racism utterly reprehensible.",
+    "word": "reprehensible"
+  },
+  "231": {
+    "part_of_speech": "v",
+    "definition": "to express disapproval or disappointment of someone or something; to criticize or rebuke",
+    "example": "No parent likes to receive reproach from a teacher about their child.",
+    "word": "reproach"
+  },
+  "232": {
+    "part_of_speech": "n",
+    "definition": "an unprincipled, wicked person",
+    "example": "That reprobate was nothing but trouble and should be avoided.",
+    "word": "reprobate"
+  },
+  "233": {
+    "part_of_speech": "v",
+    "definition": "to refuse to accept or support; reject as untrue or unjustified",
+    "example": "He officially repudiated the rumor and cleared up the misconception.",
+    "word": "repudiate"
+  },
+  "234": {
+    "part_of_speech": "n",
+    "definition": "doubts, hesitations, qualifications",
+    "example": "I had some reservations about attending the conference.",
+    "word": "reservations"
+  },
+  "235": {
+    "part_of_speech": "adj",
+    "definition": "able to recover from adversity; flexible",
+    "example": "The resilient tree could endure high winds, bending without breaking.",
+    "word": "resilient"
+  },
+  "236": {
+    "part_of_speech": "n",
+    "definition": "firm determination; resolve",
+    "example": "My New Year's resolution is to exercise daily.",
+    "word": "resolution"
+  },
+  "237": {
+    "part_of_speech": "adj",
+    "definition": "controlled; reserved; not showy",
+    "example": "She gave a restrained but moving performance.",
+    "word": "restrained"
+  },
+  "238": {
+    "part_of_speech": "n",
+    "definition": "deserved punishment for wrongdoing",
+    "example": "He avoided jail, but retribution finally caught up to him.",
+    "word": "retribution"
+  },
+  "239": {
+    "part_of_speech": "adj",
+    "definition": "feeling or displaying a sense of awe and respect",
+    "example": "She had a reverent admiration of nature's power and beauty.",
+    "word": "reverent"
+  },
+  "240": {
+    "part_of_speech": "n",
+    "definition": "language intended to persuade or impress",
+    "example": "Though high",
+    "word": "rhetoric"
+  },
+  "241": {
+    "part_of_speech": "adj",
+    "definition": "extremely demanding; violently harsh; highly disciplined",
+    "example": "Military training is rigorous both physically and mentally.",
+    "word": "rigorous"
+  },
+  "242": {
+    "part_of_speech": "adj",
+    "definition": "healthy, strong, and full of energy; able to withstand hardship",
+    "example": "My grandfather remained robust into old age despite medical issues.",
+    "word": "robust"
+  },
+  "243": {
+    "part_of_speech": "adj",
+    "definition": "related to basic principles; elementary; of primitive simplicity",
+    "example": "As a novice, he had only a rudimentary grasp of carpentry skills.",
+    "word": "rudimentary"
+  },
+  "244": {
+    "part_of_speech": "v",
+    "definition": "to feel regret, remorse, or repentance over",
+    "example": "He rued the mistake that cost him his job.",
+    "word": "rue"
+  },
+  "245": {
+    "part_of_speech": "adj",
+    "definition": "having no pity; merciless, cruel",
+    "example": "The ruthless conqueror showed no mercy to those defeated.",
+    "word": "ruthless"
+  },
+  "246": {
+    "part_of_speech": "adj",
+    "definition": "violating or misusing what is regarded as sacred",
+    "example": "The artwork was considered sacrilegious for its irreverent depiction of religious figures.",
+    "word": "sacrilegious"
+  },
+  "247": {
+    "part_of_speech": "adj",
+    "definition": "having keen discernment and good judgment; perceptive",
+    "example": "My sagacious grandmother gave insightful advice on life.",
+    "word": "sagacious"
+  },
+  "248": {
+    "part_of_speech": "n",
+    "definition": "authoritative permission or approval; officially authorized",
+    "example": "The government put sanctions on trade with certain nations.",
+    "word": "sanction"
+  },
+  "249": {
+    "part_of_speech": "n",
+    "definition": "harsh or ironic language intended to mock or convey contempt",
+    "example": "Her sarcasm made it clear she disagreed with the plan.",
+    "word": "sarcasm"
+  },
+  "250": {
+    "part_of_speech": "adj",
+    "definition": "scornfully mocking or cynical; contemptuously bitter",
+    "example": "He made a sardonic remark that hurt more than amused me.",
+    "word": "sardonic"
+  },
+  "251": {
+    "part_of_speech": "v",
+    "definition": "to satisfy fully",
+    "example": "The lavish buffet left us satiated, unable to take another bite.",
+    "word": "satiate"
+  },
+  "252": {
+    "part_of_speech": "v",
+    "definition": "to completely fill the gaps or pores of; thoroughly soak",
+    "example": "The sponge was saturated with water after being immersed so long.",
+    "word": "saturate"
+  },
+  "253": {
+    "part_of_speech": "adj",
+    "definition": "barely sufficient; meager; lacking in quantity",
+    "example": "I arrived with scant minutes to catch my departing train.",
+    "word": "scant"
+  },
+  "254": {
+    "part_of_speech": "adj",
+    "definition": "severely critical; harshly condemnatory",
+    "example": "Her scathing review showed no mercy, tearing apart the flawed novel.",
+    "word": "scathing"
+  },
+  "255": {
+    "part_of_speech": "n",
+    "definition": "one who questions facts or suspended judgment; doubter",
+    "example": "I remained skeptical of his claims until I verified them myself.",
+    "word": "skeptic"
+  },
+  "256": {
+    "part_of_speech": "n",
+    "definition": "defamation; false statements harming a reputation",
+    "example": "She sued over the slanderous accusations against her good character.",
+    "word": "slander"
+  },
+  "257": {
+    "part_of_speech": "adj",
+    "definition": "marked by serious thoughtfulness; solemnly thoughtful",
+    "example": "She maintained a sober attitude despite the celebratory mood.",
+    "word": "sober"
+  },
+  "258": {
+    "part_of_speech": "adj",
+    "definition": "causing one to become serious or thoughtful; solemnizing",
+    "example": "The statistics were sobering, making us reflect on what matters most.",
+    "word": "sobering"
+  },
+  "259": {
+    "part_of_speech": "v",
+    "definition": "to try to obtain by entreaty, earnest or respectful request",
+    "example": "He solicited donations from the wealthy philanthropist.",
+    "word": "solicit"
+  },
+  "260": {
+    "part_of_speech": "adj",
+    "definition": "alone or remote from others; secluded; reclusive",
+    "example": "The solitary old hermit lived alone in the woods by choice.",
+    "word": "solitary"
+  },
+  "261": {
+    "part_of_speech": "adj",
+    "definition": "gloomy; depressing",
+    "example": "The somber rainy day matched her melancholy mood.",
+    "word": "somber"
+  },
+  "262": {
+    "part_of_speech": "v",
+    "definition": "to calm or comfort",
+    "example": "Her voice soothed the crying baby.",
+    "word": "soothe"
+  },
+  "263": {
+    "part_of_speech": "adj",
+    "definition": "refined; complex; having acquired worldly knowledge or refinement",
+    "example": "She acted sophisticated in her designer clothes and pearls.",
+    "word": "sophisticated"
+  },
+  "264": {
+    "part_of_speech": "adj",
+    "definition": "vile, base; marked by immorality and squalor",
+    "example": "He described sordid details from a childhood spent neglected and deprived.",
+    "word": "sordid"
+  },
+  "265": {
+    "part_of_speech": "adj",
+    "definition": "occurring in brief, irregular, convulsive bursts",
+    "example": "My spasmodic hiccups made it hard to speak smoothly.",
+    "word": "spasmodic"
+  },
+  "266": {
+    "part_of_speech": "adj",
+    "definition": "deceptively plausible or attractive but actually wrong",
+    "example": "He argued that the specious reasoning sounded good but lacked substance.",
+    "word": "specious"
+  },
+  "267": {
+    "part_of_speech": "v",
+    "definition": "to eject or discharge in a gushing stream",
+    "example": "The volcano spewed hot lava down its slopes.",
+    "word": "spew"
+  },
+  "268": {
+    "part_of_speech": "adj",
+    "definition": "occurring at irregular intervals; not constant; only occasional",
+    "example": "Power outages were sporadic, but we never knew when to expect one.",
+    "word": "sporadic"
+  },
+  "269": {
+    "part_of_speech": "adj",
+    "definition": "sedate, sober, characterized by dignity and propriety",
+    "example": "The staid professor conducted class with utmost seriousness.",
+    "word": "staid"
+  },
+  "270": {
+    "part_of_speech": "adj",
+    "definition": "steadfast, loyal, unwavering",
+    "example": "The stalwart fans supported their team through years of defeat.",
+    "word": "stalwart"
+  },
+  "271": {
+    "part_of_speech": "n",
+    "definition": "mark of disgrace or infamy; a stain on one's reputation",
+    "example": "Unfair stigma still surrounds certain conditions that need better awareness.",
+    "word": "stigma"
+  },
+  "272": {
+    "part_of_speech": "v",
+    "definition": "to restrict",
+    "example": "The miserly man stinted himself of even basic comforts.",
+    "word": "stint"
+  },
+  "273": {
+    "part_of_speech": "adj",
+    "definition": "unaffected by passion or feeling",
+    "example": "He faced tragedy with stoic acceptance and grace.",
+    "word": "stoic"
+  },
+  "274": {
+    "part_of_speech": "adj",
+    "definition": "expressing little or no sensibility; impassive",
+    "example": "She remained stolid and composed even under immense pressure.",
+    "word": "stolid"
+  },
+  "275": {
+    "part_of_speech": "adj",
+    "definition": "requiring tremendous energy or stamina; difficult; arduous",
+    "example": "marathon training is strenuous work.",
+    "word": "strenuous"
+  },
+  "276": {
+    "part_of_speech": "n",
+    "definition": "bitter conflict or rivalry",
+    "example": "They sought to settle their strife peacefully before it escalated further.",
+    "word": "strife"
+  },
+  "277": {
+    "part_of_speech": "adj",
+    "definition": "imposed strictly; harsh; having a precise standard",
+    "example": "Stringent security made entering difficult.",
+    "word": "stringent"
+  },
+  "278": {
+    "part_of_speech": "adj",
+    "definition": "suffering arrested development; hampered growth",
+    "example": "The sapling's stunted growth made it spindly and weak.",
+    "word": "stunted"
+  },
+  "279": {
+    "part_of_speech": "v",
+    "definition": "to block, thwart",
+    "example": "Confusion will stymie their efforts to move forward on the project.",
+    "word": "stymie"
+  },
+  "280": {
+    "part_of_speech": "adj",
+    "definition": "smoothly and effortlessly polished; charmingly tactful",
+    "example": "He had a suave manner that put everyone at ease in conversation.",
+    "word": "suave"
+  },
+  "281": {
+    "part_of_speech": "adj",
+    "definition": "based on personal impressions or feelings",
+    "example": "The review offered only subjective criticism rather than objective analysis.",
+    "word": "subjective"
+  },
+  "282": {
+    "part_of_speech": "adj",
+    "definition": "awe",
+    "word": "sublime"
+  },
+  "283": {
+    "part_of_speech": "n",
+    "definition": "writ commanding a person to appear in court under penalty for failure",
+    "example": "She was subpoenaed to testify at the criminal trial.",
+    "word": "subpoena"
+  },
+  "284": {
+    "part_of_speech": "v",
+    "definition": "to decrease in amount or intensity",
+    "example": "The fever subsided after a few days.",
+    "word": "subside"
+  },
+  "285": {
+    "part_of_speech": "v",
+    "definition": "to provide evidence or proof in support of a claim",
+    "example": "Can you substantiate your alibi that you were elsewhere that night?",
+    "word": "substantiate"
+  },
+  "286": {
+    "part_of_speech": "adj",
+    "definition": "delicate, elusive, or quiet",
+    "example": "I couldn't quite grasp the subtle distinction he was making.",
+    "word": "subtle"
+  },
+  "287": {
+    "part_of_speech": "adj",
+    "definition": "brief and to the point; concise",
+    "example": "Please give a succinct summary of the key events.",
+    "word": "succinct"
+  },
+  "288": {
+    "part_of_speech": "adj",
+    "definition": "gloomily silent or withdrawn",
+    "example": "She grew sullen and uncommunicative as the night wore on.",
+    "word": "sullen"
+  },
+  "289": {
+    "part_of_speech": "adj",
+    "definition": "richly splendid or magnificent; luxurious",
+    "example": "We dined on a sumptuous feast of lobster and chocolate cake.",
+    "word": "sumptuous"
+  },
+  "290": {
+    "part_of_speech": "adj",
+    "definition": "concerning only the obvious or apparent qualities, not the true or inner nature",
+    "example": "His analysis was superficial, not considering deeper causes.",
+    "word": "superficial"
+  },
+  "291": {
+    "part_of_speech": "n",
+    "definition": "an uncertain belief; something theoretically assumed to be true",
+    "example": "I made the supposition he would arrive on time, but I was wrong.",
+    "word": "supposition"
+  },
+  "292": {
+    "part_of_speech": "adj",
+    "definition": "rudely unfriendly or impatient",
+    "example": "The surly cashier was clearly in a bad mood.",
+    "word": "surly"
+  },
+  "293": {
+    "part_of_speech": "adj",
+    "definition": "capable of being influenced or affected",
+    "example": "Everyone is susceptible to catching the flu virus.",
+    "word": "susceptible"
+  },
+  "294": {
+    "part_of_speech": "v",
+    "definition": "to supply necessities or nourishment; to experience or suffer",
+    "example": "Sustained by faith, she sustained the loss of her home.",
+    "word": "sustain"
+  },
+  "295": {
+    "part_of_speech": "adj",
+    "definition": "intensely hot, stifling",
+    "example": "We sweltered in the sweltering heat without air conditioning.",
+    "word": "sweltering"
+  },
+  "296": {
+    "part_of_speech": "n",
+    "definition": "one who flatters for self",
+    "word": "sycophant"
+  },
+  "297": {
+    "part_of_speech": "n",
+    "definition": "combining parts to form a whole; the end result of assembling elements",
+    "example": "The class presentation was a synthesis of research from various sources.",
+    "word": "synthesis"
+  },
+  "298": {
+    "part_of_speech": "adj",
+    "definition": "implied or indicated but not directly expressed",
+    "example": "Her tacit disapproval was obvious though she didn't criticize out loud.",
+    "word": "tacit"
+  },
+  "299": {
+    "part_of_speech": "adj",
+    "definition": "perceptible by touch; relating to the sense of touch",
+    "example": "The tactile exhibit let blind visitors feel the sculptures.",
+    "word": "tactile"
+  },
+  "300": {
+    "part_of_speech": "v",
+    "definition": "to contaminate, corrupt, or infect with evil or undesirable elements",
+    "example": "The scandal tainted his reputation, ending his career.",
+    "word": "taint"
+  },
+  "301": {
+    "part_of_speech": "adj",
+    "definition": "only superficially related to the matter at hand; digressing",
+    "example": "His tangential anecdotes distracted from the core topic.",
+    "word": "tangential"
+  },
+  "302": {
+    "part_of_speech": "adj",
+    "definition": "having little substance or strength; flimsy; weak",
+    "example": "His tenuous link between the suspects was not convincing evidence.",
+    "word": "tenuous"
+  },
+  "303": {
+    "part_of_speech": "adj",
+    "definition": "only moderately warm; lacking in enthusiasm or conviction",
+    "example": "She gave only a tenuous endorsement of the plans.",
+    "word": "tepid"
+  },
+  "304": {
+    "part_of_speech": "adj",
+    "definition": "brief, concise, pithily expressive",
+    "example": "His terse reply made me wonder if I had offended him.",
+    "word": "terse"
+  },
+  "305": {
+    "part_of_speech": "n",
+    "definition": "a solemn statement of truth or fact",
+    "example": "I was asked to provide testimony describing the night's events.",
+    "word": "testimony"
+  },
+  "306": {
+    "part_of_speech": "adj",
+    "definition": "careful and prudent in use of resources; economical; wise in savings and spendings",
+    "example": "She led a thrifty lifestyle that allowed an early retirement.",
+    "word": "thrifty"
+  },
+  "307": {
+    "part_of_speech": "adj",
+    "definition": "showing a lack of courage or confidence; shy",
+    "example": "She was too timid to try out for the talent show despite her beautiful voice.",
+    "word": "timid"
+  },
+  "308": {
+    "part_of_speech": "n",
+    "definition": "extended angry speech",
+    "example": "The customer launched into a lengthy tirade over the poor service.",
+    "word": "tirade"
+  },
+  "309": {
+    "part_of_speech": "adj",
+    "definition": "mentally or physically inert; apathetic; lethargic",
+    "example": "The torpid man just sat staring into space all afternoon.",
+    "word": "torpid"
+  },
+  "310": {
+    "part_of_speech": "adj",
+    "definition": "extremely twisted or winding; Excessively lengthy and complex",
+    "example": "We drove down a tortuous mountain road hemmed by steep ravines.",
+    "word": "tortuous"
+  },
+  "311": {
+    "part_of_speech": "adj",
+    "definition": "poisonous; causing serious harm or death",
+    "example": "The toxic chemicals contaminated the town's water supply.",
+    "word": "toxic"
+  },
+  "312": {
+    "part_of_speech": "adj",
+    "definition": "free from commotion or tumult; calm; peaceful",
+    "example": "The tranquil lagoon reflected the serene sky.",
+    "word": "tranquil"
+  },
+  "313": {
+    "part_of_speech": "adj",
+    "definition": "fleeting, passing quickly; impermanent",
+    "example": "Transient shelter offered just temporary refuge, not a permanent home.",
+    "word": "transient"
+  },
+  "314": {
+    "part_of_speech": "v",
+    "definition": "to violate a law, command, or moral code; go beyond proper bounds",
+    "example": "He transgressed societal norms with his inappropriate behavior.",
+    "word": "transgress"
+  },
+  "315": {
+    "part_of_speech": "n",
+    "definition": "a gross distortion or misrepresentation; a mockery or parody",
+    "example": "The unfair trial was a travesty rather than true justice.",
+    "word": "travesty"
+  },
+  "316": {
+    "part_of_speech": "adj",
+    "definition": "timid or fearful; marked by trembling or quivering",
+    "example": "She spoke in a tremulous voice, anxious addressing the large crowd.",
+    "word": "tremulous"
+  },
+  "317": {
+    "part_of_speech": "adj",
+    "definition": "forceful, effective, sharply perceptive; incisive",
+    "example": "His trenchant critique exposed the film's failings.",
+    "word": "trenchant"
+  },
+  "318": {
+    "part_of_speech": "n",
+    "definition": "great suffering or distress; a cause of suffering or trouble",
+    "example": "Losing her home was a tribulation she wasn't sure she could endure.",
+    "word": "tribulation"
+  },
+  "319": {
+    "part_of_speech": "adj",
+    "definition": "not new or original; overused and clichÃ©d",
+    "example": "The trite phrases sounded meaningless to the reader.",
+    "word": "trite"
+  },
+  "320": {
+    "part_of_speech": "adj",
+    "definition": "of negligible importance or value; insignificant",
+    "example": "Don't trivialize her feelings by dismissing her concerns as silly.",
+    "word": "trivial"
+  },
+  "321": {
+    "part_of_speech": "adj",
+    "definition": "characterized by unrest, disorder, or tumult; rough, agitated",
+    "example": "Turbulent winds shook the trees and scattered debris down the streets.",
+    "word": "turbulent"
+  },
+  "322": {
+    "part_of_speech": "n",
+    "definition": "a state of extreme confusion, agitation, or commotion",
+    "example": "Inner turmoil left her uncertain which path to take.",
+    "word": "turmoil"
+  },
+  "323": {
+    "part_of_speech": "v",
+    "definition": "to weaken or subvert by stealth or deceit; undercut",
+    "example": "The spies undermined the government by spreading false propaganda.",
+    "word": "undermine"
+  },
+  "324": {
+    "part_of_speech": "adj",
+    "definition": "restrained, subtle, not obvious or bold; preferring simplicity",
+    "example": "She has an understated beauty that is elegant and refined.",
+    "word": "understated"
+  },
+  "325": {
+    "part_of_speech": "v",
+    "definition": "to move in waves or with a smooth wavelike motion",
+    "example": "The flag undulated in the gentle breeze.",
+    "word": "undulate"
+  },
+  "326": {
+    "part_of_speech": "v",
+    "definition": "to bring to light; uncover through searching",
+    "example": "The archeologists unearthed ancient pottery and tools at the site.",
+    "word": "unearth"
+  },
+  "327": {
+    "part_of_speech": "adj",
+    "definition": "genuine, not false or hypocritical; sincere",
+    "example": "My unfeigned sympathy goes out to you during this difficult time.",
+    "word": "unfeigned"
+  },
+  "328": {
+    "part_of_speech": "adj",
+    "definition": "working together in coordinated harmony",
+    "example": "The crew presented a unified front despite internal disputes.",
+    "word": "unified"
+  },
+  "329": {
+    "part_of_speech": "adj",
+    "definition": "disheveled; uncared for in appearance; messy",
+    "example": "His unkempt hair and rumpled clothes gave a sloppy impression.",
+    "word": "unkempt"
+  },
+  "330": {
+    "part_of_speech": "v",
+    "definition": "to make nervous or anxious; shake courage",
+    "example": "The ominous sounds in the house unnerved me.",
+    "word": "unnerve"
+  },
+  "331": {
+    "part_of_speech": "adj",
+    "definition": "without previous instance; unparalleled",
+    "example": "unprecedented success with her first album.",
+    "word": "unprecedented"
+  },
+  "332": {
+    "part_of_speech": "adj",
+    "definition": "resistant to control or discipline; uncontrollable",
+    "example": "The unruly crowd grew rowdy after hours of waiting in line.",
+    "word": "unruly"
+  },
+  "333": {
+    "part_of_speech": "adj",
+    "definition": "difficult to carry or manage because of size or shape",
+    "example": "The antique armoire was so unwieldy they couldn't fit it through the door.",
+    "word": "unwieldy"
+  },
+  "334": {
+    "part_of_speech": "v",
+    "definition": "to criticize or scold severely",
+    "example": "He upbraided me for being thoughtless and lazy.",
+    "word": "upbraid"
+  },
+  "335": {
+    "part_of_speech": "adj",
+    "definition": "sophisticated; refined; elegant",
+    "example": "The urbane socialite knew how to navigate high society gatherings.",
+    "word": "urbane"
+  },
+  "336": {
+    "part_of_speech": "v",
+    "definition": "to seize power or take control without right",
+    "example": "The general usurped authority in a military coup.",
+    "word": "usurp"
+  },
+  "337": {
+    "part_of_speech": "adj",
+    "definition": "designed to be useful and practical rather than attractive",
+    "example": "The utilitarian water bottle was dented but still worked fine.",
+    "word": "utilitarian"
+  },
+  "338": {
+    "part_of_speech": "adj",
+    "definition": "complete or absolute",
+    "example": "We were left in utter darkness when the power went out.",
+    "word": "utter"
+  },
+  "339": {
+    "part_of_speech": "v",
+    "definition": "to waver between different courses of action; fluctuate",
+    "example": "She vacillated about which college to attend right up until the deadline.",
+    "word": "vacillate"
+  },
+  "340": {
+    "part_of_speech": "adj",
+    "definition": "not clearly defined; lacking preciseness",
+    "example": "Her description of the suspect was too vague to help identify him.",
+    "word": "vague"
+  },
+  "341": {
+    "part_of_speech": "adj",
+    "definition": "excessively proud of oneself; conceited",
+    "example": "She is vain about her appearance and constantly looks in the mirror.",
+    "word": "vain"
+  },
+  "342": {
+    "part_of_speech": "adj",
+    "definition": "possessing or acting with bravery or boldness",
+    "example": "He made a valiant effort to finish despite injury.",
+    "word": "valiant"
+  },
+  "343": {
+    "part_of_speech": "n",
+    "definition": "boldness or bravery in the face of danger",
+    "example": "The medal honored the pilot's valor in battle.",
+    "word": "valor"
+  },
+  "344": {
+    "part_of_speech": "v",
+    "definition": "to conquer, defeat, or subdue an enemy or opposition force",
+    "example": "The champion vanquished all challengers to retain his title.",
+    "word": "vanquish"
+  },
+  "345": {
+    "part_of_speech": "adj",
+    "definition": "offering nothing stimulating or challenging; dull",
+    "example": "His vapid lecture put me right to sleep.",
+    "word": "vapid"
+  },
+  "346": {
+    "part_of_speech": "v",
+    "definition": "to regard with reverential respect or admiration",
+    "example": "Many venerate the saint for his good works helping the poor.",
+    "word": "venerate"
+  },
+  "347": {
+    "part_of_speech": "adj",
+    "definition": "using more words than necessary; wordy",
+    "example": "The professor's verbose lectures were packed with tangents and repetitiveness.",
+    "word": "verbose"
+  },
+  "348": {
+    "part_of_speech": "n",
+    "definition": "annoyance or irritation; a cause of irritation",
+    "example": "Getting stuck in traffic is a daily vexation of my commute.",
+    "word": "vexation"
+  },
+  "349": {
+    "part_of_speech": "adj",
+    "definition": "capable of working or being successfully implemented",
+    "example": "a viable plan with a high chance of succeeding.",
+    "word": "viable"
+  },
+  "350": {
+    "part_of_speech": "adj",
+    "definition": "deliberately cruel or violent",
+    "example": "The vicious criminal showed no remorse.",
+    "word": "vicious"
+  },
+  "351": {
+    "part_of_speech": "adj",
+    "definition": "alertly watchful; carefully observant",
+    "example": "vigilant against threats to their security.",
+    "word": "vigilant"
+  },
+  "352": {
+    "part_of_speech": "adj",
+    "definition": "robust, full of healthy energy; forceful, intense",
+    "example": "She maintained a vigorous workout routine into old age despite medical issues.",
+    "word": "vigorous"
+  },
+  "353": {
+    "part_of_speech": "adj",
+    "definition": "loathsome; highly offensive or disgusting",
+    "example": "They faced vile slurs from the unruly crowd.",
+    "word": "vile"
+  },
+  "354": {
+    "part_of_speech": "adj",
+    "definition": "morally excellent; righteous",
+    "example": "She is a virtuous person, always trying to do good.",
+    "word": "virtuous"
+  },
+  "355": {
+    "part_of_speech": "adj",
+    "definition": "thick or sticky, having high resistance to flow",
+    "example": "Molasses has a viscous texture.",
+    "word": "viscous"
+  },
+  "356": {
+    "part_of_speech": "adj",
+    "definition": "absolutely essential; critically important",
+    "example": "Funding for the project is vital to move forward.",
+    "word": "vital"
+  },
+  "357": {
+    "part_of_speech": "adj",
+    "definition": "producing powerful feelings or strong, clear images in the mind",
+    "example": "She gave a vivid depiction of life growing up poor.",
+    "word": "vivid"
+  },
+  "358": {
+    "part_of_speech": "adj",
+    "definition": "readily changing to a vapor; changeable, unstable; fickle",
+    "example": "Gasoline is a volatile, flammable liquid.",
+    "word": "volatile"
+  },
+  "359": {
+    "part_of_speech": "v",
+    "definition": "to shift back and forth between opinions; equivocate",
+    "example": "She kept waffling on where to eat, unable to make a choice.",
+    "word": "waffle"
+  },
+  "360": {
+    "part_of_speech": "adj",
+    "definition": "pale, sickly, weak; lacking color or vitality",
+    "example": "After weeks in bed sick, she was wan and drawn.",
+    "word": "wan"
+  },
+  "361": {
+    "part_of_speech": "adj",
+    "definition": "cautiously watchful; prudent",
+    "example": "wary of strangers and slow to trust.",
+    "word": "wary"
+  },
+  "362": {
+    "part_of_speech": "adj",
+    "definition": "quirkily playful; fanciful",
+    "example": "whimsical art full of strange creatures and imaginary worlds.",
+    "word": "whimsical"
+  },
+  "363": {
+    "part_of_speech": "v",
+    "definition": "to shrivel or decay; plants withering without water",
+    "example": "My enthusiasm withered under his hostile criticism.",
+    "word": "wither"
+  },
+  "364": {
+    "part_of_speech": "adj",
+    "definition": "using clever, sly, understated humor",
+    "example": "She made wry jokes that hinted at her true feelings.",
+    "word": "wry"
+  },
+  "365": {
+    "part_of_speech": "n",
+    "definition": "eager enthusiasm; fervor",
+    "example": "She attacked the project with zeal despite obstacles.",
+    "word": "zeal"
+  },
+  "366": {
+    "part_of_speech": "adj",
+    "definition": "passionately devoted; fervent",
+    "example": "evangelical zeal motivated the group.",
+    "word": "zealous"
+  },
+  "367": {
+    "part_of_speech": "n",
+    "definition": "peak; highest point; climax",
+    "example": "He reached the zenith of his acting career after the Oscar win.",
+    "word": "zenith"
+  },
+  "368": {
+    "part_of_speech": "n",
+    "definition": "gentle, mild breeze",
+    "example": "The light zephyr barely rustled the leaves.",
+    "word": "zephyr"
+  }
+}
