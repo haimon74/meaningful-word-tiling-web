@@ -364,80 +364,177 @@ export function findAdvancedComputerMove(rack: Tile[], board: (Tile | null)[][],
   const BOARD_SIZE = board.length;
   const anchors = getAnchorPoints(board);
   const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  // Targeted debug for the blank tile test case
+  const isTestCase = (
+    board.length === 5 &&
+    board[2][2] && board[2][2]!.letter === 'O' &&
+    rack.length === 1 && rack[0].isBlank &&
+    wordSet.has('do')
+  );
+  if (isTestCase) {
+    console.log('TESTCASE: anchors', anchors);
+  }
   for (const anchor of anchors) {
-    for (const dir of [ [0, 1], [1, 0] ] as const) { // horizontal, vertical
-      for (let len = 1; len <= Math.min(BOARD_SIZE, rack.length + 1); len++) {
-        for (let offset = 0; offset < len; offset++) {
-          const startRow = anchor.row - dir[0] * offset;
-          const startCol = anchor.col - dir[1] * offset;
-          const endRow = startRow + dir[0] * (len - 1);
-          const endCol = startCol + dir[1] * (len - 1);
-          if (startRow < 0 || startCol < 0 || endRow < 0 || endCol < 0 || startRow >= BOARD_SIZE || startCol >= BOARD_SIZE || endRow >= BOARD_SIZE || endCol >= BOARD_SIZE) continue;
-          const line: (Tile | null)[] = [];
-          const emptyIndices: number[] = [];
-          for (let i = 0; i < len; i++) {
-            const r = startRow + dir[0] * i;
-            const c = startCol + dir[1] * i;
-            const cell = board[r][c];
-            line.push(cell);
-            if (!cell) emptyIndices.push(i);
-          }
-          const anchorIdx = dir[0] ? anchor.row - startRow : anchor.col - startCol;
-          if (anchorIdx < 0 || anchorIdx >= len) continue;
-          if (emptyIndices.length > rack.length) continue;
-          const emptyCount = emptyIndices.length;
-          const rackPerms = permutationsArrWithBlanks(rack, emptyCount);
-          for (const perm of rackPerms) {
-            // For each blank in perm, try all possible letters (A-Z)
-            const blankIndices = perm.map((t, i) => t.isBlank ? i : -1).filter(i => i !== -1);
-            const blankCombos = blankIndices.length === 0 ? [[]] : cartesianProduct(Array(blankIndices.length).fill(ALPHABET.split('')));
-            for (const blankLetters of blankCombos) {
-              // Create a deep copy of perm with assignedLetter for blanks
-              const permCopy = perm.map((t, i) => {
-                if (t.isBlank) {
-                  const val = blankLetters[blankIndices.indexOf(i)];
-                  return { ...t, assignedLetter: typeof val === 'string' ? val : undefined };
+    if (isTestCase) {
+      console.log('TESTCASE: processing anchor', anchor);
+    }
+    if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+      console.log('TESTCASE: at anchor (2,1), about to try directions/lengths');
+    }
+    try {
+      for (const dir of [ [0, 1], [1, 0] ] as const) { // horizontal, vertical
+        for (let len = 1; len <= Math.min(BOARD_SIZE, rack.length + 1); len++) {
+          for (let offset = 0; offset < len; offset++) {
+            const startRow = anchor.row - dir[0] * offset;
+            const startCol = anchor.col - dir[1] * offset;
+            const endRow = startRow + dir[0] * (len - 1);
+            const endCol = startCol + dir[1] * (len - 1);
+            if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+              console.log('TESTCASE: trying', { dir, len, offset, startRow, startCol, endRow, endCol });
+            }
+            if (startRow < 0 || startCol < 0 || endRow < 0 || endCol < 0 || startRow >= BOARD_SIZE || startCol >= BOARD_SIZE || endRow >= BOARD_SIZE || endCol >= BOARD_SIZE) {
+              if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+                console.log('TESTCASE: skipping', { reason: 'out of bounds', anchor, dir, len, startRow, startCol, endRow, endCol });
+              }
+              continue;
+            }
+            const line: (Tile | null)[] = [];
+            const emptyIndices: number[] = [];
+            for (let i = 0; i < len; i++) {
+              const r = startRow + dir[0] * i;
+              const c = startCol + dir[1] * i;
+              const cell = board[r][c];
+              line.push(cell);
+              if (!cell) emptyIndices.push(i);
+            }
+            const anchorIdx = dir[0] ? anchor.row - startRow : anchor.col - startCol;
+            if (anchorIdx < 0 || anchorIdx >= len) {
+              if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+                console.log('TESTCASE: skipping', { reason: 'anchorIdx out of range', anchor, dir, len, anchorIdx });
+              }
+              continue;
+            }
+            if (emptyIndices.length === 0 || emptyIndices.length > rack.length) {
+              if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+                console.log('TESTCASE: skipping', { reason: 'emptyIndices.length', anchor, dir, len, emptyIndices });
+              }
+              continue;
+            }
+            const emptyCount = emptyIndices.length;
+            const rackPerms = permutationsArrWithBlanks(rack, emptyCount);
+            for (const perm of rackPerms) {
+              // For each blank in perm, try all possible letters (A-Z)
+              const blankIndices = perm.map((t, i) => t.isBlank ? i : -1).filter(i => i !== -1);
+              const blankCombos = blankIndices.length === 0 ? [[]] : cartesianProduct(Array(blankIndices.length).fill(ALPHABET.split('')));
+              for (const blankLetters of blankCombos) {
+                if (isTestCase && anchor.row === 1 && anchor.col === 2) {
+                  console.log('TESTCASE: entering blankLetters loop', { dir, len, offset });
                 }
-                return { ...t };
-              });
-              const wordTiles: { tile: Tile; row: number; col: number }[] = [];
-              let permIdx = 0;
-              for (let i = 0; i < len; i++) {
-                const r = startRow + dir[0] * i;
-                const c = startCol + dir[1] * i;
-                if (board[r][c]) continue;
-                wordTiles.push({ tile: permCopy[permIdx++], row: r, col: c });
-              }
-              let wordStr = '';
-              permIdx = 0;
-              for (let i = 0; i < len; i++) {
-                if (line[i]) wordStr += getTileLetter(line[i]!);
-                else wordStr += getTileLetter(permCopy[permIdx++]);
-              }
-              wordStr = wordStr.toLowerCase();
-              if (!isMoveConnected(wordTiles, board)) continue;
-              const words = getAllWordsFormed(wordTiles, board);
-              if (words.length === 0) continue;
-              let atLeastOneValid = false;
-              let allValid = true;
-              for (const wArr of words) {
-                const wStr = wArr.map(w => getTileLetter(w.tile)).join('').toLowerCase();
-                if (wordSet.has(wStr)) {
-                  atLeastOneValid = true;
-                } else {
-                  allValid = false;
-                  break;
+                // Create a deep copy of perm with assignedLetter for blanks
+                const permCopy = perm.map((t, i) => {
+                  if (t.isBlank) {
+                    const val = blankLetters[blankIndices.indexOf(i)];
+                    return { ...t, assignedLetter: typeof val === 'string' ? val : undefined };
+                  }
+                  return { ...t };
+                });
+                const wordTiles: { tile: Tile; row: number; col: number }[] = [];
+                let permIdx = 0;
+                for (let i = 0; i < len; i++) {
+                  const r = startRow + dir[0] * i;
+                  const c = startCol + dir[1] * i;
+                  if (board[r][c]) continue;
+                  wordTiles.push({ tile: permCopy[permIdx++], row: r, col: c });
                 }
-              }
-              if (atLeastOneValid && allValid) {
-                // Return the move with the correct assignedLetter for blanks
-                return wordTiles;
+                // Always extend as far as possible in both directions to build the full word
+                let fullStartRow = startRow, fullStartCol = startCol;
+                let fullEndRow = endRow, fullEndCol = endCol;
+                while (true) {
+                  const r = fullStartRow - dir[0];
+                  const c = fullStartCol - dir[1];
+                  if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+                  if (board[r][c]) {
+                    fullStartRow = r;
+                    fullStartCol = c;
+                  } else break;
+                }
+                while (true) {
+                  const r = fullEndRow + dir[0];
+                  const c = fullEndCol + dir[1];
+                  if (r < 0 || c < 0 || r >= BOARD_SIZE || c >= BOARD_SIZE) break;
+                  if (board[r][c]) {
+                    fullEndRow = r;
+                    fullEndCol = c;
+                  } else break;
+                }
+                let fullWord = '';
+                let fullWordTiles: { tile: Tile; row: number; col: number }[] = [];
+                permIdx = 0;
+                for (let i = 0; ; i++) {
+                  const r = fullStartRow + dir[0] * i;
+                  const c = fullStartCol + dir[1] * i;
+                  if ((dir[0] === 0 && c > fullEndCol) || (dir[1] === 0 && r > fullEndRow)) break;
+                  let tile: Tile | null = null;
+                  if (r >= startRow && r <= endRow && c >= startCol && c <= endCol && !board[r][c]) {
+                    tile = permCopy[permIdx++];
+                  } else {
+                    tile = board[r][c];
+                  }
+                  if (!tile) break;
+                  fullWord += getTileLetter(tile);
+                  fullWordTiles.push({ tile, row: r, col: c });
+                }
+                // Targeted log for the failing test case, only for anchor (2,1)
+                if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+                  console.log('TESTCASE: candidate', { anchor, dir, wordTiles, fullWord });
+                  if (!isMoveConnected(wordTiles, board)) {
+                    console.log('TESTCASE: not connected');
+                  }
+                  if (!wordSet.has(fullWord.toLowerCase())) {
+                    console.log('TESTCASE: not in dict', fullWord);
+                  }
+                }
+                if (fullWord.length === fullWordTiles.length && fullWord.length > 1) {
+                  if (!isMoveConnected(wordTiles, board)) {
+                    continue;
+                  }
+                  if (wordSet.has(fullWord.toLowerCase())) {
+                    const words = getAllWordsFormed(wordTiles, board);
+                    let allValid = true;
+                    for (const wArr of words) {
+                      const wStr = wArr.map(w => getTileLetter(w.tile)).join('').toLowerCase();
+                      if (!wordSet.has(wStr)) {
+                        allValid = false;
+                        break;
+                      }
+                    }
+                    if (allValid) {
+                      if (isTestCase && anchor.row === 2 && anchor.col === 1) {
+                        console.log('TESTCASE: returning move', wordTiles);
+                      }
+                      return wordTiles;
+                    }
+                  }
+                }
+                if (isTestCase && anchor.row === 1 && anchor.col === 2) {
+                  console.log('TESTCASE: exiting blankLetters loop', { dir, len, offset });
+                }
               }
             }
           }
         }
       }
+      if (isTestCase) {
+        console.log('TESTCASE: finished anchor', anchor);
+      }
+    } catch (e) {
+      if (isTestCase) {
+        console.log('TESTCASE: exception in anchor', anchor, e);
+      }
     }
+  }
+  if (isTestCase) {
+    console.log('TESTCASE: no move found');
   }
   return null;
 }
